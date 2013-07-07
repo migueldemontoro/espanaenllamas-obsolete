@@ -56,7 +56,7 @@ Template Name: España en Llamas App
                 </ul>
               </div>  
                 
-              <div id="historias" class="capitulo">   
+              <div class="capitulo">                    
                 <div id="botones-lat">  
                   <div id="1" class="titular-his">La mayoría son incendios Intencionados</div>
                   <div id="2" class="titular-his">Grandes Incendios Forestales</div>
@@ -68,21 +68,15 @@ Template Name: España en Llamas App
                   <div id="7" class="titular-his">2007: El fuego arrasa Canarias</div>
                   <div id="9" class="titular-his">2011: Octubre Rojo</div>
                 </div>
-                    
                 <div id="textos-historias">
                   <div id="t1" class="txtf">
                     <p>El hombre es el principal causante de la mayoría de los 187.239 incendios ocurridos entre 2001 y 2011. Además, el 55% se inició de manera intencionada.</p>
-
                     <p>La comunidad autónoma más afectada fue Galicia, donde se quemaron un 27% del total de las hectáreas arrasadas por el fuego en España. El 81% de esos incendios fueron provocados. En segundo lugar se sitúa Castilla y León, que suma un 19% de la superficie total calcinada durante esos 11 años.</p>
-
                     <p>Los datos facilitados por el Gobierno en relación a las pérdidas económicas y los gastos en extinción de incendios forestales son muy incompletos. De acuerdo a esas informaciones oficiales, los siniestros costaron al erario público más de 1.000 millones de euros.</p>
-
                   </div>
                   <div id="t2" class="txtf">
                     <p>Los incendios de 500 hectáreas o más ─denominados oficialmente "grandes incendios forestales" (GIF) ─ son pocos en número, pero sus consecuencias son devastadoras. En términos cuantitativos, representan tan sólo el 0,2 por ciento del total de los incendios ocurridos entre 2001 y 2011. Sin embargo, causaron el 38% del total de la superficie quemada.</p>
-
                     <p>La Rioja es la única comunidad autónoma donde no ha habido ningún gran incendio forestal registrado.</p>
-
                     <p>Algunas organizaciones ecologistas aseguran que reduciendo los GIF se mejoraría el problema del fuego en nuestro país. En sus informes, todas ellas insisten en que la mejor política es la prevención.</p>
                   </div>      
                   <div id="t3" class="txtf">
@@ -131,192 +125,31 @@ Template Name: España en Llamas App
                     <p>Y si quieres que sigamos investigando, puedes  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9QCM4WNJKQ9US" target="_blank">hacer una donación</a>.</p>
                   </div>
                 </div>
-                    
-                <div class="cuadro">  
-                  <div class="cuadro-historia" id="primera-historia">
-                    <div class="titf"></div>
-                    <div class="txtf"></div>  
-                  </div>
-                </div>
               </div>
-                
-              <div id="explora" class="capitulo">
-                
-                <div id="datos-flotantes">
-                  <div class="extra-datos">Estos son los incendios según la selección realizada arriba. Por defecto salen los de 100 Ha o más.</div>
-                    
-                  <ul>
-                    <li>
-                      <div class="titulo-datos">Incendios</div>
-                      <div id="count" class="resultado-datos">-</div>
-                    </li>
-                    <li>
-                      <div class="titulo-datos">Ha quemadas</div>
-                      <div id="supQ" class="resultado-datos">-</div>
-                    </li>
-                    <li>
-                      <div class="titulo-datos">Muertos</div>
-                      <div id="muer" class="resultado-datos">-</div>
-                    </li>
-                    <li>
-                      <div class="titulo-datos">Heridos</div>
-                      <div id="heri" class="resultado-datos">-</div>
-                    </li>
-                    <li>
-                      <div class="titulo-datos">Pérdidas generadas</div>
-                      <div id="perd" class="resultado-datos">-</div>
-                    </li>
+
+              <div id="main" class="estirar">
+                <div id="map-wrapper">
+                  <div id="mapa"></div>
+                  <div class="cuadro">  
+                    <div class="cuadro-historia" id="primera-historia">
+                      <div class="titf"></div>
+                      <div class="txtf"></div>  
+                    </div>
+                  </div> 
+                </div>
+                <div class="leyenda-burbujas">
+                  <span>El tamaño de las burbujas es el tamaño real de la superficie quemada</span>
+                </div>
+                <div class="claves-fuegos">
+                  <ul id="intenono">
+                    <li><div class="fuego-int"></div> Fuego intencionado</li>
+                    <li><div class="fuego-noint"></div> Fuego no intencionado</li>
                   </ul>
                 </div>
-                    
-                <div id="selectores"> 
-                  <div id="causas" class="selector"><span>Causa del incendio</span>
-                    <ul>
-                      <li>
-                        <select id="cau" name="menu">
-                          <option class="optionGroup" value="0" selected>Todas</option>
-                          <option class="optionChild" value="1">Intencionado</option>
-                          <option class="optionChild" value="2">No Intencionado</option>
-                        </select>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="sinies" class="selector"><span>Siniestralidad</span>
-                    <ul>
-                      <li>
-                        <select id="sin" name="menu">
-                          <option class="optionGroup" value="0" selected>Todos</option>
-                          <option class="optionChild" value="1">Con Muertos</option>
-                          <option class="optionChild" value="2">Con Heridos</option>
-                        </select>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="localiz" class="selector"><span>Por localización</span>
-                    <ul>
-                      <li>
-                        <select id="loc" name="menu">
-                          <option class="optionGroup" value="0;0" selected>Todas</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="4;0"><strong>Andalucía</strong></option>
-                          <option class="optionChild" value="4;4">&nbsp;&nbsp;&nbsp;&nbsp;Almería</option>
-                          <option class="optionChild" value="4;11">&nbsp;&nbsp;&nbsp;&nbsp;Cádiz</option>
-                          <option class="optionChild" value="4;14">&nbsp;&nbsp;&nbsp;&nbsp;Córdoba</option>
-                          <option class="optionChild" value="4;18">&nbsp;&nbsp;&nbsp;&nbsp;Granada</option>
-                          <option class="optionChild" value="4;21">&nbsp;&nbsp;&nbsp;&nbsp;Huelva</option>
-                          <option class="optionChild" value="4;23">&nbsp;&nbsp;&nbsp;&nbsp;Jaén</option>
-                          <option class="optionChild" value="4;29">&nbsp;&nbsp;&nbsp;&nbsp;Málaga</option>
-                          <option class="optionChild" value="4;41">&nbsp;&nbsp;&nbsp;&nbsp;Sevilla</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="10;0"><strong>Aragón</strong></option> 
-                          <option class="optionChild" value="10;22">&nbsp;&nbsp;&nbsp;&nbsp;Huesca</option>
-                          <option class="optionChild" value="10;44">&nbsp;&nbsp;&nbsp;&nbsp;Teruel</option>
-                          <option class="optionChild" value="10;50">&nbsp;&nbsp;&nbsp;&nbsp;Zaragoza</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="5;33"><strong>Asturias</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="15;7"><strong>Islas Baleares</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="12;0"><strong>Islas Canarias</strong></option>
-                          <option class="optionChild" value="12;35">&nbsp;&nbsp;&nbsp;&nbsp;Las Palmas</option>
-                          <option class="optionChild" value="12;38">&nbsp;&nbsp;&nbsp;&nbsp;S.C. de Tenerife</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="6;39"><strong>Cantabria</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="11;0"><strong>Castilla-La Mancha</strong></option>
-                          <option class="optionChild" value="11;2">&nbsp;&nbsp;&nbsp;&nbsp;Albacete</option>
-                          <option class="optionChild" value="11;13">&nbsp;&nbsp;&nbsp;&nbsp;Ciudad Real</option>
-                          <option class="optionChild" value="11;16">&nbsp;&nbsp;&nbsp;&nbsp;Cuenca</option>
-                          <option class="optionChild" value="11;19">&nbsp;&nbsp;&nbsp;&nbsp;Guadalajara</option>
-                          <option class="optionChild" value="11;45">&nbsp;&nbsp;&nbsp;&nbsp;Toledo</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="17;0"><strong>Castilla y León</strong></option>
-                          <option class="optionChild" value="17;5">&nbsp;&nbsp;&nbsp;&nbsp;Ávila</option>
-                          <option class="optionChild" value="17;9">&nbsp;&nbsp;&nbsp;&nbsp;Burgos</option>
-                          <option class="optionChild" value="17;24">&nbsp;&nbsp;&nbsp;&nbsp;León</option>
-                          <option class="optionChild" value="17;34">&nbsp;&nbsp;&nbsp;&nbsp;Palencia</option>
-                          <option class="optionChild" value="17;37">&nbsp;&nbsp;&nbsp;&nbsp;Salamanca</option>
-                          <option class="optionChild" value="17;40">&nbsp;&nbsp;&nbsp;&nbsp;Segovia</option>
-                          <option class="optionChild" value="17;42">&nbsp;&nbsp;&nbsp;&nbsp;Soria</option>
-                          <option class="optionChild" value="17;47">&nbsp;&nbsp;&nbsp;&nbsp;Valladolid</option>
-                          <option class="optionChild" value="17;49">&nbsp;&nbsp;&nbsp;&nbsp;Zamora</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="2;0"><strong>Cataluña</strong></option>
-                          <option class="optionChild" value="2;8">&nbsp;&nbsp;&nbsp;&nbsp;Barcelona</option>
-                          <option class="optionChild" value="2;17">&nbsp;&nbsp;&nbsp;&nbsp;Girona</option>
-                          <option class="optionChild" value="2;25">&nbsp;&nbsp;&nbsp;&nbsp;Lleida</option>
-                          <option class="optionChild" value="2;43">&nbsp;&nbsp;&nbsp;&nbsp;Tarragona</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="9;0"><strong>Comunidad Valenciana</strong></option>
-                          <option class="optionChild" value="9;3">&nbsp;&nbsp;&nbsp;&nbsp;Alicante</option>
-                          <option class="optionChild" value="9;12">&nbsp;&nbsp;&nbsp;&nbsp;Castellón</option>
-                          <option class="optionChild" value="9;46">&nbsp;&nbsp;&nbsp;&nbsp;Valencia</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="14;0"><strong>Extremadura</strong></option>
-                          <option class="optionChild" value="14;6">&nbsp;&nbsp;&nbsp;&nbsp;Badajoz</option>
-                          <option class="optionChild" value="14;10">&nbsp;&nbsp;&nbsp;&nbsp;Cáceres</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="3;0"><strong>Galicia</strong></option>
-                          <option class="optionChild" value="3;15">&nbsp;&nbsp;&nbsp;&nbsp;A Coruña</option>
-                          <option class="optionChild" value="3;27">&nbsp;&nbsp;&nbsp;&nbsp;Lugo</option>
-                          <option class="optionChild" value="3;32">&nbsp;&nbsp;&nbsp;&nbsp;Ourense</option>
-                          <option class="optionChild" value="3;36">&nbsp;&nbsp;&nbsp;&nbsp;Pontevedra</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="16;28"><strong>Madrid</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="8;30"><strong>Murcia</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="13;31"><strong>Navarra</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="7;26"><strong>La Rioja</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="1;0"><strong>País Vasco</strong></option>
-                          <option class="optionChild" value="1;1">&nbsp;&nbsp;&nbsp;&nbsp;Álava</option>
-                          <option class="optionChild" value="1;20">&nbsp;&nbsp;&nbsp;&nbsp;Guipúzcoa</option>
-                          <option class="optionChild" value="1;48">&nbsp;&nbsp;&nbsp;&nbsp;Vizcaya</option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="18;51"><strong>Ceuta</strong></option>
-                          <option disabled>----------</option>
-                          <option class="optionGroup" value="19;52"><strong>Melilla</strong></option>
-                        </select>
-                      </li>
-                    </ul>
-                  </div>           
-                  <div id="supSlider" class="selector">
-                    <span>Superficie quemada (Ha)</span>
-                    <div class="layout-slider">
-                      <div id="slider"></div>
-                      <input type="text" id="range"/>
-                    </div>
-                  </div>
-                  <div class="reestab">Reestablecer mapa</div>
-                </div>
-                    
-                <div class="cuadro-busq">
-                  <div class="buscadores">Busca tu municipio</div>
-                  <div class="busq-wrapper">
-                    <input id="busqueda" type="text">
-                  </div>
-                  <div class="butira">
-                    <div id="ir" class="ant button">Ir</div>
-                  </div>
-                </div>
-             
               </div>
+
                 
               <div id="columna-dcha" class="estirar">
-                <div id="main" class="estirar">
-                  <div class="leyenda-burbujas">
-                    <span>El tamaño de las burbujas es el tamaño real de la superficie quemada</span>
-                  </div>
-                  <div id="mapa" ></div>
-                  <div class="claves-fuegos">
-                    <ul id="intenono">
-                      <li><div class="fuego-int"></div> Fuego intencionado</li>
-                      <li><div class="fuego-noint"></div> Fuego no intencionado</li>
-                    </ul>
-                  </div>
-                </div>
               </div> 
                 
               <div id="timSlider">
@@ -331,7 +164,7 @@ Template Name: España en Llamas App
             <!--END .entry-content -->
             </div>
   
-                  <?php zilla_page_end(); ?>
+            <?php zilla_page_end(); ?>
           <!--END .hentry-->
           </div>
           <?php zilla_page_after(); ?>

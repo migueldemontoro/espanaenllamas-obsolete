@@ -201,7 +201,7 @@
   top:-27px;left:26%;
 }
 
-#super-contenedor #entradilla 
+#entradilla 
 { 
   width:440px; 
   /*font-family: Arial, Helvetica, sans-serif;*/
@@ -236,7 +236,7 @@
   color:#000; 
 }
 
-#super-contenedor #grandes-cifras
+#grandes-cifras
 { 
   width:440px;
   margin-bottom:2px;
@@ -247,7 +247,7 @@
   float:right;
 }
 
-  #super-contenedor #grandes-cifras #tit-cifras
+  #grandes-cifras #tit-cifras
   { 
     margin-bottom:8px;
     font-size:14px;
@@ -259,7 +259,7 @@
     font-weight:bold;
   }
 
-  #super-contenedor #grandes-cifras ul#gcifras-int
+  #grandes-cifras ul#gcifras-int
   { 
     list-style-type:none;
     margin:0; 
@@ -268,19 +268,19 @@
     color:#000;
   }
   
-  #super-contenedor #grandes-cifras li.ultimo
+  #grandes-cifras li.ultimo
   { 
     margin-right:0px;
     border-right:0px
   }
 
-  #super-contenedor #grandes-cifras span
+  #grandes-cifras span
   { 
     font-weight:normal;
     font-size:13px;
   }
   
-  #super-contenedor #grandes-cifras li
+  #grandes-cifras li
   { 
     margin-right:5px;
     border-right: solid 1px #EBEBEB;
@@ -288,109 +288,31 @@
     display:inline; 
     float:left;
   }
-  
-#super-contenedor #donarnos
-{ 
-  width:100%;
-  margin:10px 0px;
-  padding:5px;
-  background:#ee7f00;
-  background-image: -webkit-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:    -moz-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:     -ms-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:      -o-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:         linear-gradient(top, #ee7f00 0%,#F60 100%);
-  display:inline; 
-  float:left;
-  height:30px;
-}
 
-#super-contenedor #donarnos span
-{ 
-  color:#FFF;
-  font-size:14px;
-  /*font-family:Arial, Helvetica, sans-serif;*/
-  display:inline; 
-  float:left;
-  vertical-align:middle;
-  padding-top:7px;
-  padding-left:10px;
-  text-decoration:none;
-}
-
-#super-contenedor #donarnos .btn
-{ 
-  background:#000;
-  padding:5px 20px;
-  color:#FFF;
-  display:inline; 
-  float:left;
-  margin-left:10px;
-  vertical-align:middle;
-  color:#FFF;
-  font-size:12px;
-  /*font-family:Arial, Helvetica, sans-serif;*/
-  margin-top:3px;
-  font-weight:bold;
-  text-decoration:none;
-  background-image: -webkit-linear-gradient(top, #000 0%,#333 100%);
-  background-image:    -moz-linear-gradient(top, #000 0%,#333 100%);
-  background-image:     -ms-linear-gradient(top, #000 0%,#333 100%);
-  background-image:      -o-linear-gradient(top, #000 0%,#333 100%);
-  background-image:         linear-gradient(top, #000 0%,#333 100%);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-#super-contenedor #donarnos a 
-{ 
-  
-  text-decoration:none;
-  
-}
-
-#super-contenedor #donarnos .btn:hover
-{ 
-  background:#FFF;
-  color:#000;
-  text-decoration:none;
-}
-
-
-
-#super-contenedor #donarnos .btn 
-{ 
-  color:#FFF;
-  text-decoration:none;
-}
-
-
-
-#super-contenedor #botoneraint
+#botoneraint
 { 
   width:100%;
   margin:15px 0px;
   border-bottom:solid 1px #EBEBEB;
 }
 
-#super-contenedor #botoneraint #botones-int
+#botoneraint #botones-int
 { 
   list-style-type:none;
   margin:0; padding:0;
 }
 
-  #super-contenedor #botoneraint #botones-int li
+  #botoneraint #botones-int li
   { 
     display:inline; float:left;
   }
   
-  #super-contenedor #botoneraint #botones-int li:last-child
+  #botoneraint #botones-int li:last-child
   { 
     margin-right:15px;
   }
 
-#super-contenedor #botoneraint a
+#botoneraint a
 { 
   text-decoration:none;
   color:#333;
@@ -457,7 +379,7 @@
   cursor:pointer;
 }
 
-  #super-contenedor #botoneraint #botones-int li.active .button 
+  #botoneraint #botones-int li.active .button 
   { 
     background:#333;
     color:#FFF;
@@ -470,7 +392,7 @@
     color:#FFF;
   }
  
-#super-contenedor #historias 
+/*#super-contenedor #historias 
 {
   display:inline; float:left;
 }
@@ -479,18 +401,18 @@
 {
   display:inline; float:left;
 }
-
-#super-contenedor #historias :last-child
+*/
+/*#super-contenedor #historias :last-child
 {
   border-right:none;
 }
-
-#super-contenedor #historias #textos-historias 
+*/
+#textos-historias 
 {
   display:none;
 }
 
-#super-contenedor #historias #botones-lat 
+#botones-lat 
 {
   width:920px;
   display:inline; float:left;
@@ -511,7 +433,6 @@
     border-right:solid 1px #EBEBEB;
     padding:5px 5px 15px 5px;
     border-top:4px solid #FFF;
-    border-bottom:1px solid #EBEBEB;
     font-size:13px; 
   }
   
@@ -531,26 +452,31 @@
 
   #super-contenedor .cuadro
   {
-    width:280px; height:540px;
+    width:280px; 
+    margin-top: 10px;
+    /*height:540px;*/
     background:#FFF;
-    border-right:solid 1px #999;
+    /*border-right:solid 1px #999;*/
     padding: 0px 10px 0px 5px;
-    display:inline; float:left;
-    position:absolute;
-    z-index:300;
-    top:360px;
-    left:10px;
+    /*display:inline; */
+    /*float:left;*/
+    position: absolute;
+    z-index: 1;
+    /*top:0px;*/
+    left:30px;
   }
   
   #super-contenedor .cuadro-historia {
-    margin-top:5px;
-    width:260px;
-    display:inline; float:left;
+    /*width:260px;*/
+    display:inline; 
+    float:left;
+    background: #FFF;
+    padding: 0px 10px 10px 10px;
   }
   
   #super-contenedor .cuadro .titf
   {
-    font-family:Georgia, "Times New Roman", Times, serif;
+    /*font-family:Georgia, "Times New Roman", Times, serif;*/
     color:#333;
     font-size:22px;
     line-height:22px;
@@ -560,7 +486,7 @@
   
   #super-contenedor .cuadro .txtf
   {
-    font-family:Georgia, "Times New Roman", Times, serif;
+    /*font-family:Georgia, "Times New Roman", Times, serif;*/
     color:#333;
     font-size:13px;
     line-height:16px;
@@ -611,7 +537,7 @@
     cursor:pointer;
   }
 
-#super-contenedor #explora .reestab 
+#explora .reestab 
 { 
   position:absolute;
   width:110px;
@@ -628,7 +554,7 @@
   right:80px;
 }
 
-  #super-contenedor #explora .reestab:hover 
+  #explora .reestab:hover 
   { 
     background:#333;
     color:#FFF;
@@ -636,7 +562,7 @@
   }
 
   
-#super-contenedor #explora #selectores
+#explora #selectores
 { 
   width:920px;
   display:inline; float:left;
@@ -678,7 +604,7 @@
   margin-top:8px; 
 }
 
-#super-contenedor #explora #datos-flotantes
+#datos-flotantes
 { 
   width:200px;  
   position: absolute;
@@ -691,7 +617,7 @@
   font-size:13px;
 }
 
-#super-contenedor #explora .extra-datos
+#explora .extra-datos
 { 
   padding:5px;
   color:#999;
@@ -699,26 +625,26 @@
 }
 
 
-#super-contenedor #explora ul
+#explora ul
 { 
   list-style-type:none;
   padding:20px;
   margin:0;
 }
 
-#super-contenedor #explora ul li
+#explora ul li
 { 
   margin-bottom:10px;
   border-bottom:1px solid #EBEBEB;
 }
 
-#super-contenedor #explora ul li .resultado-datos
+#explora ul li .resultado-datos
 { 
   font-weight:bold;
   font-size:18px;
 }
   
-  #super-contenedor #explora .selector 
+  #explora .selector 
   {  
     color:#333; 
     font-family:Arial, Helvetica, sans-serif; 
@@ -731,18 +657,18 @@
     
   }
   
-  #super-contenedor #explora .selector span 
+  #explora .selector span 
   {  
     margin-bottom:10px;
     padding-bottom:0px;
   }
   
-  #super-contenedor #explora .selector ul 
+  #explora .selector ul 
   {  
     margin-top:10px;
     padding-top:10px;
   }
-    #super-contenedor #explora .selector .layout-slider 
+    #explora .selector .layout-slider 
     {
       margin-top: 5px;
       width: 200px;
@@ -750,7 +676,7 @@
       padding-bottom:0px;
     }
     
-    #super-contenedor #explora .selector .layout-slider #range
+    #explora .selector .layout-slider #range
     {
       border:0;
       width:100%;
@@ -761,7 +687,7 @@
       margin-bottom:10px;
     } 
     
-    #super-contenedor #explora .selector ul 
+    #explora .selector ul 
     {
       list-style-type:none;  
       margin-left:-35px; 
@@ -771,7 +697,7 @@
       margin:0; padding:0;
     }
     
-    #super-contenedor #explora .selector li 
+    #explora .selector li 
     { 
       display:inline; 
       float:left;
@@ -781,14 +707,14 @@
   
     }
     
-      #super-contenedor #explora .selector .optionGroup 
+      #explora .selector .optionGroup 
       { 
         font-weight:bold;
         font-style:italic;
     
       }
       
-      #super-contenedor #explora .selector .optionChild 
+      #explora .selector .optionChild 
       { 
         /*padding-left:15px !important;*/
       }
@@ -800,7 +726,7 @@
       cursor:pointer;
     }
     
-    #super-contenedor #buscador .buscadores
+    #buscador .buscadores
     {
       color:#666;
       padding-top:15px;
@@ -808,7 +734,7 @@
       letter-spacing:-0.03em;
     }
 
-#super-contenedor #buscador
+#buscador
 {
   width:100%;
   display:inline; float:left;
@@ -868,7 +794,7 @@
     cursor:pointer;
   }
 
-#super-contenedor #loading 
+#loading 
 { 
   width:100%; 
   height:30px;  
@@ -877,30 +803,33 @@
   margin-top:-12px;
 }
 
-#super-contenedor #columna-dcha 
+#columna-dcha 
 { 
   width:690px;
   margin-top:12px;
   display:inline; float:right; 
-  font-family:Arial, Helvetica, sans-serif;
+  /*font-family:Arial, Helvetica, sans-serif;*/
 }
 
-#super-contenedor #explora #columna-dcha 
+#explora #columna-dcha 
 { 
   width:920px; 
   margin-top:12px;
   display:inline; float:left; 
-  font-family:Arial, Helvetica, sans-serif;
+  /*font-family:Arial, Helvetica, sans-serif;*/
 }
 
-  #super-contenedor #columna-dcha #main 
+  #columna-dcha #main 
   {
     position:relative;
     width:100%; 
-    display:inline; float:left; 
+    /*height: 540px;*/
+    display:inline; 
+    float:left; 
+    z-index: -1;
   }
   
-    #super-contenedor #main .pieza-leyenda
+    #main .pieza-leyenda
     { 
       width:150px; 
       position:absolute;
@@ -916,7 +845,7 @@
       height:40px;
     }
     
-    #super-contenedor #main .mapa-canarias
+    #main .mapa-canarias
     { 
       position:absolute;
       z-index:200;
@@ -928,19 +857,19 @@
       box-shadow: 0 0 1em #666;
     }
     
-      #super-contenedor #main .mapa-canarias:hover
+      #main .mapa-canarias:hover
       { 
         opacity:.5;
         filter:alpha(opacity=50%);
         cursor:pointer;
       }
   
-    #super-contenedor #main .claves-fuegos
+    #main .claves-fuegos
     { 
       width:150px; 
       position:absolute; 
       padding:5px 10px; 
-      font-family: Arial, Helvetica, sans-serif; 
+      /*font-family: Arial, Helvetica, sans-serif; */
       font-size:12px; 
       color:#333; 
       z-index:200;
@@ -952,7 +881,7 @@
       height:28px;
     }
     
-      #super-contenedor #main .claves-fuegos ul
+      #main .claves-fuegos ul
       { 
         list-style-type:none; 
         width:100%; 
@@ -960,18 +889,18 @@
         margin-left:-35px;
       }
       
-      #super-contenedor #explora .claves-fuegos ul
+      #explora .claves-fuegos ul
       { 
         margin-top:-23px;
         margin-left:-18px;
       }
       
-      #super-contenedor #main .claves-fuegos li 
+      #main .claves-fuegos li 
       { 
         margin-bottom: 5px;
       }
       
-      #super-contenedor #main .claves-fuegos .fuego-int 
+      #main .claves-fuegos .fuego-int 
       { 
         width:10px; 
         height:10px; 
@@ -981,7 +910,7 @@
         margin-right:5px;
       }
       
-      #super-contenedor #main .claves-fuegos .fuego-noint 
+      #main .claves-fuegos .fuego-noint 
       { 
         width:10px; 
         height:10px; 
@@ -991,39 +920,43 @@
         margin-right:5px;
       }
 
-  #super-contenedor #columna-dcha #mapa 
-  { 
-    width:100%; 
+  #map-wrapper
+  {
+    clear: both;
+    height: 540px;
+  }
+
+  #mapa 
+  {
+    position:absolute;
+    left:0;
+    right:0;
     height:540px; 
-    background:#CCC;  
-    display:inline; 
-    float:left; 
-    margin-top:-12px;
   }
   
-    #super-contenedor #columna-dcha #mapa .fireLayer 
+    #mapa .fireLayer 
     {
         position: absolute;
     }
 
-      #super-contenedor #columna-dcha #mapa .fireLayer .wrapper 
+      #mapa .fireLayer .wrapper 
       {
           position: absolute;
       }
 
-      #super-contenedor #columna-dcha #mapa .fireLayer .fireCircle 
+      #mapa .fireLayer .fireCircle 
       {
         fill-opacity: 0.8;
         stroke: black;
         stroke-width: 0px;
       }
       
-      #super-contenedor #columna-dcha #mapa .fireLayer .fireCircle:hover 
+      #mapa .fireLayer .fireCircle:hover 
       {
         cursor:pointer;
       }
   
-  #super-contenedor #timSlider 
+  #timSlider 
   { 
     width:675px; 
     display:inline; 
@@ -1037,7 +970,7 @@
     font-size:14px;
   }
   
-    #super-contenedor #timSlider #yearnavbar span.yearselect
+    #timSlider #yearnavbar span.yearselect
     {
       font-weight:bold;
       cursor: pointer; 
@@ -1048,7 +981,7 @@
       padding-top:5px;
     }
     
-    #super-contenedor #timSlider #yearnavbar span.year
+    #timSlider #yearnavbar span.year
     {
       cursor: pointer; 
       cursor: hand;
@@ -1057,12 +990,12 @@
       padding-top:5px;
     }
     
-    #super-contenedor #timSlider #yearnavbar span.year:hover
+    #timSlider #yearnavbar span.year:hover
     {
       color:#333;
     }
     
-    #super-contenedor #timSlider #yearnavbar span.sep
+    #timSlider #yearnavbar span.sep
     {
       margin-left: 5px; 
       margin-right: 5px;
@@ -1070,7 +1003,7 @@
       padding-top:5px;
     }
     
-    #super-contenedor #timSlider #playBtn
+    #timSlider #playBtn
     {
       width: 14px;
       height: 14px;
@@ -1081,18 +1014,18 @@
       margin-left:10px;
     }
     
-    #super-contenedor #timSlider #playBtn:hover
+    #timSlider #playBtn:hover
     {
       opacity:.5;
       filter:alpha(opacity=50)
     }
-    #super-contenedor #timSlider #playBtn.pause:hover
+    #timSlider #playBtn.pause:hover
     {
       opacity:.5;
       filter:alpha(opacity=50)
     }
     
-    #super-contenedor #timSlider #playBtn.pause
+    #timSlider #playBtn.pause
     {
       background-image: url('../img/pause.icon.png');
       width: 25px;
@@ -1102,7 +1035,7 @@
       margin-left:10px;
     }
     
-    #super-contenedor #timSlider #playBtn.play
+    #timSlider #playBtn.play
     {
       background-image: url('../img/play.icon.png');
       width: 25px;
@@ -1112,7 +1045,7 @@
       margin-left:10px;
     }
     
-    #super-contenedor #timSlider #yearnavbar a
+    #timSlider #yearnavbar a
     {
       color:#666;
       text-decoration:none;

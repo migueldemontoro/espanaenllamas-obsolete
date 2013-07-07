@@ -137,15 +137,6 @@ $(document).ready(function(){
       $("div#columna-dcha").width("690px");
       google.maps.event.trigger(map, "resize");
       
-      //Check which of the news is active
-      /*var p = $("div.titular-his.active");
-      if (p.length) {
-        var id = p.attr("id");
-        switchNews(id);
-      }
-      else {
-        resetVis();
-      }*/
       //Reset tab to original form
       var p = $("div.titular-his.active");
       if (p.length) {
@@ -401,7 +392,11 @@ function loadMap() {
 
 /*Initiliaze locality search functionality*/
 function initSearch() {
-  autocomplete = new google.maps.places.Autocomplete(document.getElementById('busqueda'),pOpts);
+  var searchBox = document.getElementById('busqueda');
+  if ( searchBox == null )
+    return;
+
+  var autocomplete = new google.maps.places.Autocomplete(searchBox, pOpts);
   mPlace = new google.maps.Marker({
     flat: true
     ,clickable: false
@@ -825,7 +820,7 @@ var map = null;
 var _selectedFire = null;
 
 var MZoom = 6;
-var MCenter =  new google.maps.LatLng(40, -4);
+var MCenter =  new google.maps.LatLng(40, -7);
 var MZoomCanarias = 7;
 var MCenterCanarias = new google.maps.LatLng(28.292213, -16.627893);
 var MCenterSanabria= new google.maps.LatLng(42.1224, -6.7196);
