@@ -25,13 +25,9 @@ function start() {
 
 /*Update the elements of the vis*/
 function update() {
-  //var startTime,endTime;
-  //startTime=new Date().getTime();
   updateMap();
   updatePlayBtn();
   updateNavigationBar();
-  //endTime=new Date().getTime();
-  //console.log('Elapsed time: '+((endTime-startTime)/1000)+' seconds.');
 }
 /*Controls the end of the loading data process*/
 function showVis(a) {
@@ -114,14 +110,9 @@ function zoomCanarias() {
 From here we start the visualization script*/
 $(document).ready(function(){
   /******************Initial appearance******************/
-  /*Hide both tabs*/
-  $("div.capitulo").hide();
-  
-  /*Initialize and show the first tab*/
   $("div.mapa-canarias").hide();
   $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
   $("div.cuadro .txtf").html($("div#explicacion").clone());
-  $("div.capitulo:first").show();
   
   /*******************Behavior news control*******************/
   $("div.titular-his").click(function() {
@@ -135,79 +126,11 @@ $(document).ready(function(){
       switchNews(id);
     }
     else {
-      //var id = $(this).attr("id");
-      //switchNews(id);
       //If already selected show to the introductory text
       $(this).removeClass("active");
       $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
       $("div.cuadro .txtf").html($("div#explicacion").clone());
       switchNews(0);
-    }
-  });
-  
-  $("div#anterior").click(function() {
-    var p = $("div.titular-his.active");
-    if (p.length) {
-      //There is an active history
-      var n = p.prev();
-      if (n.is(".titular-his")) {
-        p.removeClass("active");
-        n.addClass("active");
-        var id = n.attr("id");
-        var tit = n.text();
-        $("div.cuadro .titf").text(tit);
-        $("div.cuadro .txtf").html($("div#t"+id).clone());
-        switchNews(id);
-      }
-      else {
-        p.removeClass("active");
-        $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
-        $("div.cuadro .txtf").html($("div#explicacion").clone());
-        switchNews(0);
-      }
-    }
-    else {
-      //We are in the explanation go to the last history
-      var p = $("div.titular-his:last");
-      p.addClass("active");
-      var id = p.attr("id");
-      var tit = p.text();
-      $("div.cuadro .titf").text(tit);
-      $("div.cuadro .txtf").html($("div#t"+id).clone());
-      switchNews(id);
-    }
-  });
-  
-  $("div#siguiente").click(function() {
-    var p = $("div.titular-his.active");
-    if (p.length) {
-      //There is an active history
-      var n = p.next();
-      if (n.is(".titular-his")) {
-        p.removeClass("active");
-        n.addClass("active");
-        var id = n.attr("id");
-        var tit = n.text();
-        $("div.cuadro .titf").text(tit);
-        $("div.cuadro .txtf").html($("div#t"+id).clone());
-        switchNews(id);
-      }
-      else {
-        p.removeClass("active");
-        $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
-        $("div.cuadro .txtf").html($("div#explicacion").clone());
-        switchNews(0);
-      }
-    }
-    else {
-      //We are in the explanation go to the first history
-      var p = $("div.titular-his:first");
-      p.addClass("active");
-      var id = p.attr("id");
-      var tit = p.text();
-      $("div.cuadro .titf").text(tit);
-      $("div.cuadro .txtf").html($("div#t"+id).clone());
-      switchNews(id);
     }
   });
   
@@ -286,19 +209,7 @@ $(document).ready(function(){
   colorInt = d3.rgb(c1).toString();
   var c2 = $(".fuego-noint").css("background-color");
   colorNint = d3.rgb(c2).toString();
-  
-  //Facebook share
-  $("div.facebook").click(function() {
-    var url = "http://www.espanaenllamas.es/"
-    var call = "http://www.facebook.com/sharer.php?u="+encodeURIComponent(url);
-    window.open(call,'ventanacompartir', 'toolbar=0, status=0, width=650, height=450, left=400, top=50');    
-    return false;
-  });
-  
-  //Retrieve the map position
-  //map_x = $("#mapa").offset().left;
-  //map_y = $("#mapa").offset().top;
-  
+    
   /***************************************************
   **********LAUNCH THE VISUALIZATION SCRIPT***********
   ****************************************************/
@@ -656,11 +567,6 @@ function switchNews(id) {
       break;
     //2005: El peor año de la década
     case "5":
-      /*resetVis();
-      var f = fires["2005190182"];
-      map.setCenter(f.gLatLng);
-      map.setZoom(10);
-      */
       resetFilters();
       currentYear=2005;
       update();
