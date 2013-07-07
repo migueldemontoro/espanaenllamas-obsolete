@@ -11,20 +11,19 @@ Template Name: España en Llamas App
         <div id="primary" class="hfeed full-width">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   
-                  <?php zilla_page_before(); ?>
+          <?php zilla_page_before(); ?>
           <!--BEGIN .hentry-->
           <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
           <?php zilla_page_start(); ?>
           
             <h1 class="entry-title"><?php the_title(); ?></h1>
-                      <?php if ( current_user_can( 'edit_post', $post->ID ) ): ?>
-                      
-                      <!--BEGIN .entry-meta .entry-header-->
+            <?php if ( current_user_can( 'edit_post', $post->ID ) ): ?>                      
+            <!--BEGIN .entry-meta .entry-header-->
             <div class="entry-meta entry-header">
               <?php edit_post_link( __('edit', 'zilla'), '<span class="edit-post">[', ']</span>' ); ?>
             <!--END .entry-meta .entry-header-->
-                      </div>
-                      <?php endif; ?>
+            </div>
+            <?php endif; ?>
   
             <!--BEGIN .entry-content -->
             <div class="entry-content" id="super-contenedor">
@@ -33,7 +32,7 @@ Template Name: España en Llamas App
                   Los 187.239 incendios forestales ocurridos entre 2001 y 2011 quemaron 1.239.524 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 60,8% del total de la superficie quemada.
                 </div>
                 
-                <div id="grandes-cifras"  class="estirar">  
+                <div id="grandes-cifras">  
                   <div id="tit-cifras">Cifras de incendios de 100 hectáreas o más (mostrados en el mapa)</div>
                   <ul id="gcifras-int">
                     <li>1.679 <span>incendios</span></li>
@@ -49,7 +48,7 @@ Template Name: España en Llamas App
                 </div>
               </div>
              
-              <div id="botoneraint" class="estirar">
+              <div id="botoneraint">
                 <ul id="botones-int">
                   <li id="pHis"><a href="#historias"><div class="button">Visita guiada</div></a></li>
                   <li id="pExp"><a href="#explora"><div class="button">Explora los incendios</div></a></li>
@@ -127,7 +126,7 @@ Template Name: España en Llamas App
                 </div>
               </div>
 
-              <div id="main" class="estirar">
+              <div id="main">
                 <div id="map-wrapper">
                   <div id="mapa"></div>
                   <div class="cuadro">  
@@ -148,10 +147,6 @@ Template Name: España en Llamas App
                 </div>
               </div>
 
-                
-              <div id="columna-dcha" class="estirar">
-              </div> 
-                
               <div id="timSlider">
                 <div id="playBtn" class="play" style="float: left;"></div>
                 <div id="yearnavbar" style="float: left;"></div>
@@ -182,10 +177,10 @@ Template Name: España en Llamas App
       </div>
 
 <?php get_footer(); ?>
-  <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=geometry,places&sensor=false"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/infoBox/infobox_packed.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/d3/d3.v2.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/jquery/jquery-1.7.2.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/jquery/jquery-ui-1.8.22.custom.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/js/app.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/js/overlay.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=geometry,places&sensor=false"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/infoBox/infobox_packed.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/d3/d3.v2.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/libs/jquery/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/js/app.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/app/js/overlay.js"></script>

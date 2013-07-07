@@ -1,95 +1,9 @@
-.estirar:after
-{
-  content:".";
-  display:block;
-  height:0;
-  clear:both;
-  visibility:hidden
-}
-.estirar
-{
-  display:block
-}
-* html .estirar
-{
-  height:1px
-}
-
 #super-contenedor 
 { 
-/*  width:990px; 
-  border:solid 1px #EBEBEB; 
-  display:block; 
-  padding:10px; 
-  position:relative;
-*/
   color:#666;
   margin:0 auto;
 }
 
-/*#super-contenedor .redes-sociales
-{
-  position:absolute;
-  float: right;
-  top:7px;
-  right:10px;
-  width:200px;
-}
-
-#super-contenedor .apilar
-{
-  float: left;
-  display:inline;
-  margin: 5px;
-}
-
-#super-contenedor .facebook
-{
-  display:inline;
-  float: right;
-  margin:2px;
-}
-
-#super-contenedor .twitter
-{
-  display:inline;
-  float: right;
-  margin:2px;
-}
-
-#super-contenedor .goteo
-{
-  display:inline;
-  float: right;
-  margin:2px;
-}
-
-#super-contenedor .goteo:hover
-{
-  cursor:pointer;
-  opacity:.5;
-  filter:alpha(opacity=50%);
-}
-
-#super-contenedor .facebook:hover
-{ 
-    cursor:pointer;
-}*/
-/*
-#super-contenedor .titular 
-{ 
-  width:100%; 
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:52px; 
-  color:#ee7f00; 
-  padding-bottom:5px; 
-  margin-bottom:5px; 
-  color:#000;
-  letter-spacing:-0.03em;
-  display:inline; float:left;
-  font-weight:bold;
-}
-*/
 #super-contenedor .titular-met 
 { 
   font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +34,6 @@
 #super-contenedor .subtit 
 { 
   width:100%; 
-  font-family: Arial, Helvetica, sans-serif;
   font-size:12px; 
   color:#999; 
   text-transform:uppercase;
@@ -161,7 +74,6 @@
 
 #super-contenedor #segunda-parte .titu-metodologia
 { 
-  /*font-family:Arial, Helvetica, sans-serif;*/
   font-weight:bold;
   font-size:25px;
   color:#ee7f00;
@@ -169,8 +81,7 @@
 
 #super-contenedor #segunda-parte .txt-metodologia
 { 
-/*  font-family:Arial, Helvetica, sans-serif;
-*/  font-size:13px;
+  font-size:13px;
   color:#333;
 }
 
@@ -189,7 +100,6 @@
   margin: 0 auto;
   width:370px;
   float:left; display:inline;
-  /*font-family: Georgia, "Times New Roman", Times, serif;*/
   padding: 8px;
   margin-top:15px;
   color:#333;
@@ -198,13 +108,13 @@
   color:#FFF;
   position:absolute;
   z-index:222;
-  top:-27px;left:26%;
+  top:-27px;
+  left:26%;
 }
 
 #entradilla 
 { 
   width:440px; 
-  /*font-family: Arial, Helvetica, sans-serif;*/
   font-size:13px; 
   color:#999; 
   margin:0px 15px 5px 0px; 
@@ -216,7 +126,6 @@
 #super-contenedor .firmafuente
 { 
   width:100%; 
-  /*font-family: Arial, Helvetica, sans-serif;*/
   font-size:13px; 
   padding:5px; 
   margin:5px; 
@@ -242,7 +151,6 @@
   margin-bottom:2px;
   font-size:20px;
   letter-spacing:-0.03em;
-  /*font-family: Arial, Helvetica, sans-serif;*/
   display:inline; 
   float:right;
 }
@@ -252,7 +160,6 @@
     margin-bottom:8px;
     font-size:14px;
     letter-spacing:-0.04em;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     display:inline; 
     float:left;
     color:#000; 
@@ -304,7 +211,8 @@
 
   #botoneraint #botones-int li
   { 
-    display:inline; float:left;
+    display:inline; 
+    float:left;
   }
   
   #botoneraint #botones-int li:last-child
@@ -392,21 +300,6 @@
     color:#FFF;
   }
  
-/*#super-contenedor #historias 
-{
-  display:inline; float:left;
-}
-
-#super-contenedor #explora 
-{
-  display:inline; float:left;
-}
-*/
-/*#super-contenedor #historias :last-child
-{
-  border-right:none;
-}
-*/
 #textos-historias 
 {
   display:none;
@@ -427,7 +320,6 @@
   {
     width:90px; height:55px;
     display:inline; float:left;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     color:#333; 
     letter-spacing:-0.02em;
     border-right:solid 1px #EBEBEB;
@@ -454,15 +346,10 @@
   {
     width:280px; 
     margin-top: 10px;
-    /*height:540px;*/
     background:#FFF;
-    /*border-right:solid 1px #999;*/
     padding: 0px 10px 0px 5px;
-    /*display:inline; */
-    /*float:left;*/
     position: absolute;
     z-index: 1;
-    /*top:0px;*/
     left:30px;
   }
   
@@ -476,7 +363,6 @@
   
   #super-contenedor .cuadro .titf
   {
-    /*font-family:Georgia, "Times New Roman", Times, serif;*/
     color:#333;
     font-size:22px;
     line-height:22px;
@@ -486,7 +372,6 @@
   
   #super-contenedor .cuadro .txtf
   {
-    /*font-family:Georgia, "Times New Roman", Times, serif;*/
     color:#333;
     font-size:13px;
     line-height:16px;
@@ -545,7 +430,6 @@
   right:1%;
   border: solid 1px #666;
   padding: 5px 10px 5px 10px;
-  font-family:Arial, Helvetica, sans-serif;
   font-size:12px;
   color:#333;
   z-index:230;
@@ -613,7 +497,6 @@
   z-index:250;
   top:372px;
   left:42px;
-  font-family:Arial, Helvetica, sans-serif;
   font-size:13px;
 }
 
@@ -647,7 +530,6 @@
   #explora .selector 
   {  
     color:#333; 
-    font-family:Arial, Helvetica, sans-serif; 
     font-weight:bold; 
     padding:7px; 
     font-size:12px; 
@@ -713,16 +595,9 @@
         font-style:italic;
     
       }
-      
-      #explora .selector .optionChild 
-      { 
-        /*padding-left:15px !important;*/
-      }
 
     #super-contenedor  .selector:hover 
     {  
-      /*background:#333;  
-      color:#FFF;*/ 
       cursor:pointer;
     }
     
@@ -744,9 +619,10 @@
 
 #super-contenedor .titular-busq 
 {
-  width:12%; height:60px;
-  display:inline; float:left;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  width:12%; 
+  height:60px;
+  display:inline; 
+  float:left;
   color:#333; 
   letter-spacing:-0.06em;
   border-right:solid 1px #EBEBEB;
@@ -774,7 +650,6 @@
   top:275px; right:10px;
   z-index:223;
   padding: 5px;
-  /*font-family: Arial, Helvetica, sans-serif;*/
   font-size:12px;
 }
   
@@ -803,12 +678,11 @@
   margin-top:-12px;
 }
 
-#columna-dcha 
+#columna-dcha   /* FIXME: Remove */
 { 
   width:690px;
   margin-top:12px;
   display:inline; float:right; 
-  /*font-family:Arial, Helvetica, sans-serif;*/
 }
 
 #explora #columna-dcha 
@@ -816,14 +690,12 @@
   width:920px; 
   margin-top:12px;
   display:inline; float:left; 
-  /*font-family:Arial, Helvetica, sans-serif;*/
 }
 
   #columna-dcha #main 
   {
     position:relative;
     width:100%; 
-    /*height: 540px;*/
     display:inline; 
     float:left; 
     z-index: -1;
@@ -834,7 +706,6 @@
       width:150px; 
       position:absolute;
       padding:5px 10px; 
-      font-family: Arial, Helvetica, sans-serif; 
       font-size:12px; 
       color:#666; 
       z-index:200;
@@ -869,7 +740,6 @@
       width:150px; 
       position:absolute; 
       padding:5px 10px; 
-      /*font-family: Arial, Helvetica, sans-serif; */
       font-size:12px; 
       color:#333; 
       z-index:200;
@@ -966,7 +836,6 @@
     padding:6px 5px;
     color:#CCC;
     background:#FFF;
-    font-family:Arial, Helvetica, sans-serif;
     font-size:14px;
   }
   
