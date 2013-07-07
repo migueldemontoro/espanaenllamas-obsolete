@@ -118,55 +118,10 @@ $(document).ready(function(){
   $("div.capitulo").hide();
   
   /*Initialize and show the first tab*/
-  $("ul#botones-int li:first").addClass("active").show();
   $("div.mapa-canarias").hide();
   $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
   $("div.cuadro .txtf").html($("div#explicacion").clone());
   $("div.capitulo:first").show();
-  
-  /*******************Behavior tab control*******************/
-  $("li#pHis").click(function() {
-    if (!$(this).hasClass('active')) {
-      $("div.mapa-canarias").hide();
-      $("ul#botones-int li").removeClass("active");
-      $(this).addClass("active");
-      $(".capitulo").hide();
-
-      var activeTab = $(this).find("a").attr("href");
-      $(activeTab).fadeIn();
-      $("div#columna-dcha").width("690px");
-      google.maps.event.trigger(map, "resize");
-      
-      //Reset tab to original form
-      var p = $("div.titular-his.active");
-      if (p.length) {
-        p.removeClass("active");
-        $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
-        $("div.cuadro .txtf").html($("div#explicacion").clone());
-        switchNews(0);
-      }
-      else {
-        resetVis();
-      }
-      
-    }
-    return false;
-  });
-  $("li#pExp").click(function() {
-    if (!$(this).hasClass('active')) {
-      $("div.mapa-canarias").show();
-      $("ul#botones-int li").removeClass("active");
-      $(this).addClass("active");
-      $(".capitulo").hide();
-    
-      var activeTab = $(this).find("a").attr("href");
-      $(activeTab).fadeIn();
-      $("div#columna-dcha").width("100%");
-      google.maps.event.trigger(map, "resize");
-      resetVis();
-    }
-    return false;
-  });
   
   /*******************Behavior news control*******************/
   $("div.titular-his").click(function() {

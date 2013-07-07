@@ -48,13 +48,6 @@ Template Name: España en Llamas App
                 </div>
               </div>
              
-              <div id="botoneraint">
-                <ul id="botones-int">
-                  <li id="pHis"><a href="#historias"><div class="button">Visita guiada</div></a></li>
-                  <li id="pExp"><a href="#explora"><div class="button">Explora los incendios</div></a></li>
-                </ul>
-              </div>  
-                
               <div class="capitulo">                    
                 <div id="botones-lat">  
                   <div id="1" class="titular-his">La mayoría son incendios Intencionados</div>
