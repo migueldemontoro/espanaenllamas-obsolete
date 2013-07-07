@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: España en Llamas App
+Template Name: España en Llamas - Guided Tour
 */
 ?>
 

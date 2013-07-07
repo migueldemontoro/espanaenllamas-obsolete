@@ -298,7 +298,7 @@
     padding: 0px 10px 0px 5px;
     position: absolute;
     z-index: 1;
-    left:30px;
+    left:42px;
   }
   
   #super-contenedor .cuadro-historia {
@@ -442,39 +442,38 @@
   position: absolute;
   background:#FFF;
   border:1px solid #EBEBEB;
-  z-index:250;
-  top:372px;
+  margin-top: 10px;
+  z-index:1;
   left:42px;
   font-size:13px;
 }
 
-#explora .extra-datos
-{ 
-  padding:5px;
-  color:#999;
-  font-size:12px;
-}
+  #datos-flotantes .extra-datos
+  { 
+    padding:5px;
+    color:#999;
+    font-size:12px;
+  }
 
-
-#explora ul
+  #datos-flotantes .resultado-datos
+  { 
+    font-weight:bold;
+    font-size:18px;
+  }
+    
+#explora ul, #datos-flotantes ul
 { 
   list-style-type:none;
   padding:20px;
   margin:0;
 }
 
-#explora ul li
+#explora ul li, #datos-flotantes ul li
 { 
   margin-bottom:10px;
   border-bottom:1px solid #EBEBEB;
 }
 
-#explora ul li .resultado-datos
-{ 
-  font-weight:bold;
-  font-size:18px;
-}
-  
   #explora .selector 
   {  
     color:#333; 

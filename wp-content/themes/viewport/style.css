@@ -212,7 +212,8 @@ body.page-template-template-home-fullwidth-php #content { background: url(images
 body.page-template-template-home-blog-php #content { background: url(images/2col_back_single.png) repeat-y; }
 
 body.page-template-template-full-width-php #content { background: url(images/1col_back.png) repeat-y; }
-body.page-template-template-app-php #content { background: url(images/1col_back.png) repeat-y; }
+body.page-template-template-app-guided-tour-php #content { background: url(images/1col_back.png) repeat-y; }
+body.page-template-template-app-explore-php #content { background: url(images/1col_back.png) repeat-y; }
 
 #sidebar {
 	float: right;
@@ -255,10 +256,12 @@ body.page-template-template-home-blog-php .entry-summary {
 }
 
 body.page-template-template-full-width-php #primary { width: 960px !important; }
-body.page-template-template-app-php #primary { width: 960px !important; }
+body.page-template-template-app-guided-tour-php #primary { width: 960px !important; }
+body.page-template-template-app-explore-php #primary { width: 960px !important; }
 
 body.page-template-template-full-width-php .type-page { width: 920px; }
-body.page-template-template-app-php .type-page { width: 920px; }
+body.page-template-template-app-guided-tour-php .type-page { width: 920px; }
+body.page-template-template-app-explore-php .type-page { width: 920px; }
 
 #footer { clear: both; }
 
