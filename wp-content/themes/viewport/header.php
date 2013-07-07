@@ -32,6 +32,8 @@
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/styles/app.css"/>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/styles/cartela.css"/>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/styles/cartela.css"/>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/styles/jquery-ui/jquery.ui.all.css"/>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-34028059-1']);
