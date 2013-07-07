@@ -1198,14 +1198,14 @@ body.single .post .entry-footer a { font-size: 11px; }
 /*-----------------------------------------------------------------------------------*/
 
 #feature-wrapper { 
-    height: 600px;
+    height: 450px;	/* dcabo: was 600px */
     overflow: hidden;
     width: 100%; 
 }
 
 .feature {
 	min-width: 960px;
-    height: 600px;
+    height: 450px;	/* dcabo: was 600px */
 	overflow: hidden;
 	display: none;
 	position: relative;
