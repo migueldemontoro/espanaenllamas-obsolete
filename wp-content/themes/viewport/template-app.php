@@ -136,13 +136,11 @@ Template Name: España en Llamas App
                     </div>
                   </div> 
                 </div>
-                <div class="leyenda-burbujas">
-                  <span>El tamaño de las burbujas es el tamaño real de la superficie quemada</span>
-                </div>
                 <div class="claves-fuegos">
-                  <ul id="intenono">
-                    <li><div class="fuego-int"></div> Fuego intencionado</li>
-                    <li><div class="fuego-noint"></div> Fuego no intencionado</li>
+                  <p>El tamaño de las burbujas es el tamaño real de la superficie quemada:</p>
+                  <ul>
+                    <li><span class="fuego-int"></span> Fuego intencionado</li>
+                    <li><span class="fuego-noint"></span> Fuego no intencionado</li>
                   </ul>
                 </div>
               </div>

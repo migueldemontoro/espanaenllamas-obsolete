@@ -95,23 +95,6 @@
   list-style-type:lower-alpha;
 }
 
-#super-contenedor .leyenda-burbujas
-{ 
-  margin: 0 auto;
-  width:370px;
-  float:left; display:inline;
-  padding: 8px;
-  margin-top:15px;
-  color:#333;
-  background:#333;
-  font-size:12px;
-  color:#FFF;
-  position:absolute;
-  z-index:222;
-  top:-27px;
-  left:26%;
-}
-
 #entradilla 
 { 
   width:440px; 
@@ -310,11 +293,6 @@
   width:920px;
   display:inline; float:left;
 }
-
-  #super-contenedor ul#intenono
-  { 
-    margin-left:5px;
-  }
 
   #super-contenedor .titular-his 
   {
@@ -735,60 +713,51 @@
         cursor:pointer;
       }
   
-    #main .claves-fuegos
+  .claves-fuegos
+  { 
+    font-size:12px; 
+    color:#333;
+  }
+
+    .claves-fuegos p
+    {
+      float: left;
+    }
+
+    .claves-fuegos ul
     { 
-      width:150px; 
-      position:absolute; 
-      padding:5px 10px; 
-      font-size:12px; 
-      color:#333; 
-      z-index:200;
-      top: 30px;
-      right:0px;
-      background: #EBEBEB;
-      padding:10px;
-      margin:0;
-      height:28px;
+      list-style-type: none;
+      float: left;
+      margin-left: 10px;
+    }
+
+    .claves-fuegos ul li
+    { 
+      float: left;
+      margin-right: 10px;
+    }
+          
+    .claves-fuegos .fuego-int 
+    { 
+      width:10px; 
+      height:10px; 
+      background-color: #C03; 
+      display:inline; 
+      float:left; 
+      margin-right:5px;
+      margin-top:6px;
     }
     
-      #main .claves-fuegos ul
-      { 
-        list-style-type:none; 
-        width:100%; 
-        margin-top:-2px;
-        margin-left:-35px;
-      }
-      
-      #explora .claves-fuegos ul
-      { 
-        margin-top:-23px;
-        margin-left:-18px;
-      }
-      
-      #main .claves-fuegos li 
-      { 
-        margin-bottom: 5px;
-      }
-      
-      #main .claves-fuegos .fuego-int 
-      { 
-        width:10px; 
-        height:10px; 
-        background-color: #C03; 
-        display:inline; 
-        float:left; 
-        margin-right:5px;
-      }
-      
-      #main .claves-fuegos .fuego-noint 
-      { 
-        width:10px; 
-        height:10px; 
-        background:#439b8f; 
-        display:inline; 
-        float:left; 
-        margin-right:5px;
-      }
+    .claves-fuegos .fuego-noint 
+    { 
+      width:10px; 
+      height:10px; 
+      background:#439b8f; 
+      display:inline; 
+      float:left; 
+      margin-right:5px;
+      margin-top:6px;
+    }
 
   #map-wrapper
   {
