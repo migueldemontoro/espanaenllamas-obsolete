@@ -169,18 +169,17 @@ Template Name: España en Llamas - Explore
                       <input type="text" id="range"/>
                     </div>
                   </div>
-                  <div class="reestab">Reestablecer mapa</div>
-                </div>
-                    
-                <div class="cuadro-busq">
-                  <div class="buscadores">Busca tu municipio</div>
-                  <div class="busq-wrapper">
-                    <input id="busqueda" type="text">
+                  <div class="cuadro-busq">
+                    <span class="buscadores">Busca tu municipio</span>
+                    <div class="busq-wrapper">
+                      <input id="busqueda" type="text">
+                    </div>
+                    <div class="butira">
+                      <div id="ir" class="search-form-button">Ir »</div>
+                    </div>
                   </div>
-                  <div class="butira">
-                    <div id="ir" class="ant button">Ir</div>
-                  </div>
-                </div>
+                  <div class="reestab">Resetear</div>
+                </div>                    
               </div>
 
               <div id="main">

@@ -842,7 +842,8 @@ a.jp-unmute:hover { background-position: -43px -98px; }
 
 /* Common Form Elements --------------------------------------------------*/
 
-input,
+/* dcabo: removed input, so app page looks better */
+
 textarea,
 .zilla .gform_wrapper input[type="text"], 
 .zilla .gform_wrapper input[type="url"], 

@@ -179,42 +179,23 @@
     float:left;
   }
 
-#super-contenedor .button
-{ 
-  padding: 10px 15px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:13px;
-  margin-left:5px;
-  color:#FFF;
-  background:#ee7f00;
-  background-image: -webkit-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:    -moz-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:     -ms-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:      -o-linear-gradient(top, #ee7f00 0%,#F60 100%);
-  background-image:         linear-gradient(top, #ee7f00 0%,#F60 100%);
-}
-
 #super-contenedor .button a
 { 
-  /*color:#333;*/
   color:#FFF;
   text-decoration:none;
 }
 
-#super-contenedor .ant.button
+#super-contenedor .search-form-button
 { 
   border: 1px solid #EBEBEB !important;
-  padding: 6px 4px;
-  font-family:Arial, Helvetica, sans-serif;
+  height: 18px;
+  padding: 2px 4px 6px 4px;
   font-size:13px;
+  margin-top: 3px;
   margin-left:5px;
   color:#333;
-  background:#FFF;
-  background-image: linear-gradient(bottom, #FFF 10%, #EBEBEB 100%);
-  background-image: -o-linear-gradient(bottom, #FFF 10%, #EBEBEB 100%);
-  background-image: -moz-linear-gradient(bottom, #FFF 10%, #EBEBEB 100%);
-  background-image: -webkit-linear-gradient(bottom, #FFF 10%, #EBEBEB 100%);
-  background-image: -ms-linear-gradient(bottom, #FFF 10%, #FFD505 100%);
+  background: #EEE;
+  border-radius: 2px;
 }
 
 #super-contenedor .butFire
@@ -372,9 +353,10 @@
 
 #explora .reestab 
 { 
-  position:absolute;
-  width:110px;
-  margin-top: 15px;
+  float: left;
+  /*position:absolute;*/
+  /*width:110px;*/
+/*  margin-top: 15px;
   right:1%;
   border: solid 1px #666;
   padding: 5px 10px 5px 10px;
@@ -384,14 +366,14 @@
   top:310px;
   background:#FFF;
   right:80px;
-}
-
+*/}
+/*
   #explora .reestab:hover 
   { 
     background:#333;
     color:#FFF;
     cursor:pointer;
-  }
+  }*/
 
   
 #explora #selectores
@@ -451,7 +433,6 @@
   #datos-flotantes .extra-datos
   { 
     padding:5px;
-    color:#999;
     font-size:12px;
   }
 
@@ -500,7 +481,7 @@
     #explora .selector .layout-slider 
     {
       margin-top: 5px;
-      width: 200px;
+      width: 150px;
       padding-right:5px;
       padding-bottom:0px;
     }
@@ -548,22 +529,6 @@
     {  
       cursor:pointer;
     }
-    
-    #buscador .buscadores
-    {
-      color:#666;
-      padding-top:15px;
-      font-size:22px;
-      letter-spacing:-0.03em;
-    }
-
-#buscador
-{
-  width:100%;
-  display:inline; float:left;
-  position:relative;
-  top:-74px;
-}
 
 #super-contenedor .titular-busq 
 {
@@ -592,29 +557,39 @@
 
 #super-contenedor .cuadro-busq
 {
-  width:200px; height:50px;
-  position:absolute; 
+  width:200px; 
+  height:50px;
   background:#FFF;
-  top:275px; right:10px;
   z-index:223;
   padding: 5px;
   font-size:12px;
+  float: left;
 }
   
   #super-contenedor .cuadro-busq .busq-wrapper
   {
     font-size:12px;
-    height:11px; width:150px;
-    display:inline; float:left; 
+    height:11px; 
+    width:150px;
+    display:inline; 
+    float:left; 
   }
   
   #super-contenedor .cuadro-busq .butira
   {
-    display:inline; float:left; 
-    width:35px; height:20px;
+    display:inline; 
+    float:left; 
+    width:35px; 
+    height:20px;
     margin:-5px 5px;
     text-align:center;
     cursor:pointer;
+  }
+
+  #super-contenedor .cuadro-busq .buscadores
+  {
+    font-weight: bold;
+    color: #333;
   }
 
 #loading 
