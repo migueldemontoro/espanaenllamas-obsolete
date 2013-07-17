@@ -364,8 +364,11 @@ if ( !function_exists( 'zilla_gallery' ) ) {
     
         // get first 2 attachments for the post
         $args = array(
-            'include' => $include,
-            'orderby' => $orderby,
+            // dcabo 20130717: was this a bug or some weird version mismatch?
+            // How can this work locally and not in Heroku?
+            // 'include' => $include,
+            // 'orderby' => $orderby,
+            'post__in' => $include,
             'post_type' => 'attachment',
             'post_parent' => $postid,
             'post_mime_type' => 'image',
