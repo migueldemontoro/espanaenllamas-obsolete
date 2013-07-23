@@ -348,9 +348,9 @@ function createCartela(b) {
   html += "</div>";
   html += "<div class=\"pieza-cartela\">";
   html += "<div class=\"tit-medios\">Medios empleados</div>";
-  html += "<div><ul>";
-  html += "<li><div class=\"cifra-cartela\">"+formatValue(b.personal)+" <span>personas y </span>"+formatValue(b.pesados+b.aereos)+" <span>vehículos/aviones</span></div></li>";
-  html += "</ul></div></div>";
+  html += "<div>";
+  html += "<div class=\"cifra-cartela\">"+formatValue(b.personal)+" <span>personas y </span>"+formatValue(b.pesados+b.aereos)+" <span>vehículos/aviones</span></div>";
+  html += "</div></div>";
   html += "<div class=\"pieza-cartela\">";
   html += "<div class=\"tit-medios\">Gastos de extinción</div>";
   if (b.gExt != 0) 
