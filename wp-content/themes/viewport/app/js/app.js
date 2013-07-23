@@ -110,7 +110,6 @@ function zoomCanarias() {
 From here we start the visualization script*/
 $(document).ready(function(){
   /******************Initial appearance******************/
-  $("div.mapa-canarias").hide();
   $("div.cuadro .titf").text("Incendios en detalle a un nivel nunca visto");
   $("div.cuadro .txtf").html($("div#explicacion").clone());
   

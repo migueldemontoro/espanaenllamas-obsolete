@@ -218,6 +218,9 @@ Template Name: España en Llamas - Explore
                     <li><span class="fuego-noint"></span> Fuego no intencionado</li>
                   </ul>
                 </div>
+                <div class="mapa-canarias">
+                  <img src="<?php echo get_template_directory_uri(); ?>/app/img/canarias.png" alt="Mapa de Canarias" title="Pulsa para localizar el mapa en Canarias"/>
+                </div>
               </div>
 
               <div id="timSlider">
