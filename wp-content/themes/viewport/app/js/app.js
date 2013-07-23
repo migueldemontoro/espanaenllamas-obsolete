@@ -266,7 +266,7 @@ function initSearch() {
     flat: true
     ,clickable: false
     ,visible: false
-    ,icon: "img/mm_20_blue.png"
+    ,icon: "../wp-content/themes/viewport/img/mm_20_blue.png"
   });
   mPlace.setMap(map);
   google.maps.event.addListener(autocomplete, 'place_changed', function() {
@@ -748,7 +748,7 @@ var ibPopOpts = {
   ,alignBottom: true
   ,pixelOffset: new google.maps.Size(-238, -30)
   ,infoBoxClearance: new google.maps.Size(0, 0)
-  ,closeBoxURL: "img/close.gif"
+  ,closeBoxURL: "../wp-content/themes/viewport/app/img/close.gif"
 };
     
 var ibToolOpts = {
