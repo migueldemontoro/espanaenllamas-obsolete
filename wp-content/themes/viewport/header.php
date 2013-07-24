@@ -78,6 +78,9 @@
 					<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" width="109" height="17" /></a>
 					<?php } ?>
 				<!-- END #logo -->
+    			<a href="http://www.civio.es">
+	    			<img id="civio-logo" src="<?php echo get_template_directory_uri(); ?>/images/civio.png">
+	    		</a>
 				</div>
 				
 				<?php zilla_nav_before(); ?>

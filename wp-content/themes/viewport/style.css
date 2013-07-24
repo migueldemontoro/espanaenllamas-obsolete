@@ -2586,3 +2586,8 @@ and (max-width : 660px) {
 	.zilla-five-sixth { width: 100% !important; }
 
 }
+
+#civio-logo {
+	vertical-align: middle;
+	margin-left: 10px;
+}
