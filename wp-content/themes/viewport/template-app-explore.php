@@ -185,6 +185,9 @@ Template Name: España en Llamas - Explore
               <div id="main">
                 <div id="map-wrapper">
                   <div id="mapa"></div>
+                  <div class="mapa-canarias">
+                    <img src="<?php echo get_template_directory_uri(); ?>/app/img/canarias.png" alt="Mapa de Canarias" title="Pulsa para localizar el mapa en Canarias"/>
+                  </div>
                   <div id="datos-flotantes">
                     <div class="extra-datos">Estos son los incendios según la selección realizada arriba. Por defecto salen los de 100 Ha o más.</div>
                     <ul>
@@ -217,9 +220,6 @@ Template Name: España en Llamas - Explore
                     <li><span class="fuego-int"></span> Fuego intencionado</li>
                     <li><span class="fuego-noint"></span> Fuego no intencionado</li>
                   </ul>
-                </div>
-                <div class="mapa-canarias">
-                  <img src="<?php echo get_template_directory_uri(); ?>/app/img/canarias.png" alt="Mapa de Canarias" title="Pulsa para localizar el mapa en Canarias"/>
                 </div>
               </div>
 
