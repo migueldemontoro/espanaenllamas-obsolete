@@ -61,7 +61,9 @@ function resetVis() {
   map.setCenter(MCenter);
   map.setZoom(MZoom);
   $("input#busqueda").val("");
-  mPlace.setVisible(false);
+  if (mPlace) {
+    mPlace.setVisible(false);
+  }
   place = null;
   update();
 }
