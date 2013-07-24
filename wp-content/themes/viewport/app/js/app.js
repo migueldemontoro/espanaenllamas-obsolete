@@ -268,7 +268,7 @@ function initSearch() {
     flat: true
     ,clickable: false
     ,visible: false
-    ,icon: "../wp-content/themes/viewport/img/mm_20_blue.png"
+    ,icon: "../wp-content/themes/viewport/app/img/mm_20_blue.png"
   });
   mPlace.setMap(map);
   google.maps.event.addListener(autocomplete, 'place_changed', function() {
