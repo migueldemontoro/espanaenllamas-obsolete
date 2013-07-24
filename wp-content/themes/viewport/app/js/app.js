@@ -738,6 +738,7 @@ var MOptions = {
   zoomControlOptions: {
     style: google.maps.ZoomControlStyle.SMALL
   },
+  scrollwheel: false,
   mapTypeControl: true,
   scaleControl: false,
   streetViewControl: false,
