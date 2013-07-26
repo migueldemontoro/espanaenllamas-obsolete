@@ -1,0 +1,77 @@
+#pop-up {
+  display: none;
+  position:absolute;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px 5px 10px;
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px 8px;
+  border-radius: 8px 8px;
+  pointer-events: none;
+}
+
+#pop-up-title {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bolder;
+}
+
+#pop-up-content {
+  font-size: 12px;
+}
+
+#chart {
+  width: 920px;
+  height: 500px;
+  background: #bbb;
+}
+
+#chart text {
+  font-size:2em;
+  pointer-events: none;
+  text-align: center;
+  fill: #FFF;
+}
+
+#chart .grandparent text {
+  font-size:1em;
+  font-weight: bold;
+  fill: #000;
+}
+
+#chart rect {
+  fill: none;
+  stroke: #fff;
+}
+
+#chart rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+  rx: 5;
+  ry: 5;
+}
+
+#chart rect.child {
+  stroke-width: 0px;
+  pointer-events: none;
+}
+
+#chart .grandparent rect {
+  fill: #fff;
+}
+
+#chart .children rect.parent, .grandparent rect {
+  cursor: pointer;
+}
+
+#chart rect.parent {
+  pointer-events: all;
+}
+
+#chart .children:hover rect.child, .grandparent:hover rect {
+  fill: #999999;
+}
+
+#chart rect.child {
+  fill: rgb(107,174,214);
+}
