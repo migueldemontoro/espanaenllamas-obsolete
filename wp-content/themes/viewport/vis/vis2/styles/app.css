@@ -1,0 +1,84 @@
+.noborder, .noborder tr, .noborder th, .noborder td { border: none; }
+#d3table {
+  font: 12px sans-serif;
+  width: 900px;
+}
+
+#d3table thead {
+  font-size:1.5em;
+}
+
+#d3table thead th.span {
+  text-align: center;
+}
+
+#d3table thead th.header {
+  text-align: right;
+  font-weight:normal;
+  padding-right: 6px;
+}
+
+#d3table thead td.header {
+  text-align: left;
+  cursor: s-resize;
+  font-weight:normal;
+}
+
+#d3table tbody th {
+  font-weight: normal;
+  text-align: right;
+  padding-right: 6px;
+  min-width: 43px;
+}
+
+#d3table tbody tr:first-child td {
+  padding-top: 2px;
+}
+
+#d3table tbody td {
+  padding: 2px;
+  border-left: solid 1px #000;
+}
+#d3table tbody tr.nacional:hover rect {
+    fill: orange;
+}
+
+#d3table tbody tr.nacional rect {
+  fill: orange;
+}
+
+#d3table tbody rect {
+  fill: rgb(107,174,214);
+}
+
+#d3table tbody tr:hover rect {
+  fill: #999999;
+}
+
+#d3table tbody tr td text {
+  fill: white;
+  font-weight: bolder;
+}
+
+#pop-up {
+  display: none;
+  position:absolute;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px 5px 10px;
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px 8px;
+  border-radius: 8px 8px;
+  pointer-events: none;
+}
+
+#pop-up-title {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bolder;
+}
+
+#pop-up-content {
+  font-size: 12px;
+}
+

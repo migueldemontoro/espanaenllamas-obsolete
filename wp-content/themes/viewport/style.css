@@ -214,6 +214,9 @@ body.page-template-template-home-blog-php #content { background: url(images/2col
 body.page-template-template-full-width-php #content { background: url(images/1col_back.png) repeat-y; }
 body.page-template-template-app-guided-tour-php #content { background: url(images/1col_back.png) repeat-y; }
 body.page-template-template-app-explore-php #content { background: url(images/1col_back.png) repeat-y; }
+body.page-template-template-vis1-php #content { background: url(images/1col_back.png) repeat-y; }
+body.page-template-template-vis2-php #content { background: url(images/1col_back.png) repeat-y; }
+body.page-template-template-vis3-php #content { background: url(images/1col_back.png) repeat-y; }
 
 #sidebar {
 	float: right;
@@ -258,10 +261,16 @@ body.page-template-template-home-blog-php .entry-summary {
 body.page-template-template-full-width-php #primary { width: 960px !important; }
 body.page-template-template-app-guided-tour-php #primary { width: 960px !important; }
 body.page-template-template-app-explore-php #primary { width: 960px !important; }
+body.page-template-template-vis1-php #primary { width: 960px !important; }
+body.page-template-template-vis2-php #primary { width: 960px !important; }
+body.page-template-template-vis3-php #primary { width: 960px !important; }
 
 body.page-template-template-full-width-php .type-page { width: 920px; }
 body.page-template-template-app-guided-tour-php .type-page { width: 920px; }
 body.page-template-template-app-explore-php .type-page { width: 920px; }
+body.page-template-template-vis1-php .type-page{ width: 920px}
+body.page-template-template-vis2-php .type-page{ width: 920px}
+body.page-template-template-vis3-php .type-page{ width: 920px}
 
 #footer { clear: both; }
 
