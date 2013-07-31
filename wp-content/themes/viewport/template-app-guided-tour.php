@@ -144,9 +144,7 @@ Template Name: España en Llamas - Guided Tour
               </div>
                  
               <div class="firmafuente">
-                <a href="http://www.espanaenllamas.es/metodologia-del-mapa-de-incendios/">Metodología: Cómo se hizo el mapa de España en Llamas</a>.
-              </div>
-              <div class="firmafuente">
+                <a href="http://www.espanaenllamas.es/metodologia-del-mapa-de-incendios/">Metodología: Cómo se hizo el mapa de España en Llamas</a>.<br />
                 <a href="<?php echo get_template_directory_uri(); ?>/app/data/data.zip">Descargar datos</a> de todos los incendios de 100 hectáreas o más reflejados en el mapa.
               </div>
               <div class="firmafuente">
