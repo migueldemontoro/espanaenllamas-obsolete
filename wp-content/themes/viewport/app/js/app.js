@@ -569,7 +569,7 @@ function switchNews(id) {
     //2005: El peor año de la década
     case "5":
       resetFilters();
-      currentYear=2005;
+      currentYear=2012;
       update();
       break;
     //2006: Galicia - Año Negro
@@ -789,7 +789,7 @@ var supQinf = 100.0;
 var supQsup = 30000.0;
 var colorInt = null;
 var colorNint = null;
-var availableYears = d3.range(2001,2012);
+var availableYears = d3.range(2001,2013);
 /******************************************TIME ANIMATION FUNCTIONS***********************************************/
 var intervalID = null;
 var counter = 0;
