@@ -29,20 +29,20 @@ Template Name: España en Llamas - Explore
             <div class="entry-content" id="super-contenedor">
               <div id="segunda-parte">
                 <div id="entradilla">
-                  Los 187.239 incendios forestales ocurridos entre 2001 y 2011 quemaron 1.239.524 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 60,8% del total de la superficie quemada.
+                  Los 203.217 incendios forestales ocurridos entre 2001 y 2012 quemaron 1.456.620 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 63,4% del total de la superficie quemada.
                 </div>
                 
                 <div id="grandes-cifras">  
                   <div id="tit-cifras">Cifras de incendios de 100 hectáreas o más (mostrados en el mapa)</div>
                   <ul id="gcifras-int">
-                    <li>1.679 <span>incendios</span></li>
-                    <li>1.043 <span>intencionados</span></li>
-                    <li class="ultimo">753.757 <span>ha quemadas</span></li>
+                    <li>1.883 <span>incendios</span></li>
+                    <li>1.176 <span>intencionados</span></li>
+                    <li class="ultimo">923.795 <span>ha quemadas</span></li>
                   </ul>
                   <div id="tit-cifras"></div>
                   <ul id="gcifras-int">
-                    <li>32 <span>muertos</span></li>
-                    <li>195 <span>heridos</span></li>
+                    <li>36 <span>muertos</span></li>
+                    <li>226 <span>heridos</span></li>
                     <li class="ultimo"><span>Costaron más de </span>1.000M €</li>
                   </ul>
                 </div>
@@ -233,7 +233,7 @@ Template Name: España en Llamas - Explore
               </div>
               <div class="firmafuente">
                 Realizado por la <a href="http://civio.es" target="_blank">Fundación Ciudadana Civio</a>, en colaboración con <a href="http://es.linkedin.com/pub/juan-elosua/b/274/689" target="_blank">Juan Elosua</a> y <a href="http://thisisvisual.info" target="_blank">This is Visual</a>.<br />
-                <strong>Fuente:</strong> Base de Datos Nacional de Incendios Forestales (EGIF) 2001-2011. Si la geolocalización exacta del incendio no estaba disponible se aproximó al municipio.
+                <strong>Fuente:</strong> Base de Datos Nacional de Incendios Forestales (EGIF) 2001-2012. Si la geolocalización exacta del incendio no estaba disponible se aproximó al municipio.
               </div>
             <!--END .entry-content -->
             </div>
