@@ -29,7 +29,7 @@ Template Name: España en Llamas - Explore
             <div class="entry-content" id="super-contenedor">
               <div id="segunda-parte">
                 <div id="entradilla">
-                  Los 203.217 incendios forestales ocurridos entre 2001 y 2012 quemaron 1.456.620 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 63,4% del total de la superficie quemada.
+                  Los 203.217 incendios forestales ocurridos entre 2001 y 2012 quemaron 1.456.621 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 63,4% del total de la superficie quemada.
                 </div>
                 
                 <div id="grandes-cifras">  
