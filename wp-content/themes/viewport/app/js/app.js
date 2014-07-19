@@ -554,10 +554,11 @@ function switchNews(id) {
       supQsup=30000.0;
       update();
       break;
-    //El día maldito
+    //2005: El peor año de la década
     case "3":
       resetFilters();
-      updateMapDate(0,7,27)
+      currentYear=2012;
+      update();
       break;
     //2003: Arde extremadura
     case "4":
@@ -569,7 +570,7 @@ function switchNews(id) {
     //2005: El peor año de la década
     case "5":
       resetFilters();
-      currentYear=2012;
+      currentYear=2005;
       update();
       break;
     //2006: Galicia - Año Negro

@@ -43,7 +43,7 @@ Template Name: España en Llamas - Guided Tour
                   <ul id="gcifras-int">
                     <li>36 <span>muertos</span></li>
                     <li>226 <span>heridos</span></li>
-                    <li class="ultimo"><span>Costaron más de </span>1.000M €</li>
+                    <li class="ultimo"><span>Costaron más de </span>1.100M €</li>
                   </ul>
                 </div>
               </div>
@@ -53,29 +53,29 @@ Template Name: España en Llamas - Guided Tour
                   <div id="1" class="titular-his">La mayoría son incendios Intencionados</div>
                   <div id="2" class="titular-his">Grandes Incendios Forestales</div>
                   <div id="8" class="titular-his">Espacios Naturales... ¿Protegidos?</div>
-                  <div id="3" class="titular-his">27 de julio: El día que más se quema</div>
                   <div id="4" class="titular-his">2003: Rayos en Extremadura</div>
+                  <div id="5" class="titular-his">2005: El peor año de la década</div>
                   <div id="6" class="titular-his">2006: Año negro en Galicia</div>
                   <div id="7" class="titular-his">2007: El fuego arrasa Canarias</div>
                   <div id="9" class="titular-his">2011: Octubre Rojo</div>
-                  <div id="5" class="titular-his">2012: El peor año de la década</div>
+                  <div id="3" class="titular-his">2012: El peor año de la década</div>
                 </div>
                 <div id="textos-historias">
                   <div id="t1" class="txtf">
                     <p>El hombre es el principal causante de la mayoría de los 203.217 incendios ocurridos entre 2001 y 2012. Además, el 55% se inició de manera intencionada.</p>
                     <p>La comunidad autónoma más afectada fue Galicia, donde se quemaron un 24% del total de las hectáreas arrasadas por el fuego en España. El 81% de esos incendios fueron provocados. En segundo lugar se sitúa Castilla y León, que suma un 19% de la superficie total calcinada durante esos 12 años.</p>
-                    <p>Los datos facilitados por el Gobierno en relación a las pérdidas económicas y los gastos en extinción de incendios forestales son muy incompletos. De acuerdo a esas informaciones oficiales, los siniestros costaron al erario público más de 1.000 millones de euros.</p>
+                    <p>Los datos facilitados por el Gobierno en relación a las pérdidas económicas y los gastos en extinción de incendios forestales son muy incompletos. De acuerdo a esas informaciones oficiales, los siniestros costaron al erario público más de 1.100 millones de euros.</p>
                   </div>
                   <div id="t2" class="txtf">
-                    <p>Los incendios de 500 hectáreas o más ─denominados oficialmente "grandes incendios forestales" (GIF) ─ son pocos en número, pero sus consecuencias son devastadoras. En términos cuantitativos, representan tan sólo el 0,2 por ciento del total de los incendios ocurridos entre 2001 y 2012. Sin embargo, causaron el 42% del total de la superficie quemada.</p>
+                    <p>Los incendios de 500 hectáreas o más ─denominados oficialmente "grandes incendios forestales" (GIF) ─ son pocos en número, pero sus consecuencias son devastadoras. En términos cuantitativos, representan tan sólo el 0,17 por ciento del total de los incendios ocurridos entre 2001 y 2012. Sin embargo, causaron el 42% del total de la superficie quemada.</p>
                     <p>La Rioja es la única comunidad autónoma donde no ha habido ningún gran incendio forestal registrado.</p>
                     <p>Algunas organizaciones ecologistas aseguran que reduciendo los GIF se mejoraría el problema del fuego en nuestro país. En sus informes, todas ellas insisten en que la mejor política es la prevención.</p>
                   </div>      
                   <div id="t3" class="txtf">
-                    <p>Las condiciones meteorológicas resultan un factor clave para que los fuegos se propaguen rápidamente o no. El 68 por ciento de la superficie quemada durante el periodo 2001-2012 ardió en los meses de verano. Agosto es el mes en el que más incendios ocurrieron.</p>
-                    <p>Sin embargo, el día que más destaca es el 27 de julio. En esa fecha se produjeron 944 incendios, un número que esconde el 3,70% del total de hectáreas calcinadas.</p>
-                    <p>Ese día, en 2004, comenzó un fuego en Minas de Riotinto (Huelva), que acabaría siendo el más grande de los primeros once años del siglo XXI. Quemó 29.867 hectáreas. Los datos del Ministerio de Agricultura, Alimentación y Medio Ambiente no muestran víctimas mortales, pero en los medios se informó de <a href="http://www.elmundo.es/elmundo/2011/10/08/andalucia/1318064718.html" target="_blank">la muerte de un matrimonio</a>.</p>
-                    <div class="butFire" id="2004210126">Ver incendio</div>
+                    <p>Las cifras de 2012 superan al resto de años del periodo 2001-2012 en todos los indicadores</p>
+                    <p>Lorem Ipsum</p>
+                    <div class="butFire" id="2005190182">Ver incendio</div>
+                    <p>Sin embargo, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según adelantó el Ministerio</a> a abril de 2013, <b>el año más aciago del siglo XXI para los bosques fue 2012. El fuego quemó 209.855 hectáreas de superficie forestal</b>, o 2.098 km². Para poner en valor esa cifra, apuntamos que la provincia de Guipúzcoa tiene 1.980 km². Los datos oficiales definitivos se podrán consultar en 2014.</p>
                   </div>
                   <div id="t4" class="txtf">
                     <p>Las tormentas secas del verano de 2003 hicieron arder Extremadura. Los rayos iniciaron los incendios más devastadores. Sólo en los dos primeros días de agosto hubo hasta 15 fuegos que carbonizaron más de 16.500 hectáreas.</p>
@@ -83,14 +83,14 @@ Template Name: España en Llamas - Guided Tour
                     <p>De acuerdo con las estadísticas oficiales y el análisis de las mismas realizado por <a href="http://www.civio.es" target="_blank">Civio</a>, en ese mismo intervalo de años los rayos provocaron 8.676 incendios forestales en España, un 4,3% del total, que quemaron 86.412 ha, una cifra equivalente al 5,93% de la superficie calcinada.</p>
                   </div>
                   <div id="t5" class="txtf">
-                    <p>Las cifras de 2012 superan al resto de años del periodo 2001-2012 en todos los indicadores</p>
-                    <p>Lorem Ipsum</p>
-                    <div class="butFire" id="2005190182">Ver incendio</div>
-                    <p>Sin embargo, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según adelantó el Ministerio</a> a abril de 2013, <b>el año más aciago del siglo XXI para los bosques fue 2012. El fuego quemó 209.855 hectáreas de superficie forestal</b>, o 2.098 km². Para poner en valor esa cifra, apuntamos que la provincia de Guipúzcoa tiene 1.980 km². Los datos oficiales definitivos se podrán consultar en 2014.</p>
+                  <p>Las cifras de 2005 superan al resto de años del periodo 2001-2011 en todos los indicadores: Número de incendios, superficie quemada, heridos y muertos. Ardieron 188.697 hectáreas, un 15% del total. Además, hubo 17 fallecidos y 102 heridos.</p>
+                  <p>El peor incendio empezó el 16 de julio en Riba de Saelices (Guadalajara). Fue provocado por unos excursionistas que manipulaban una barbacoa. Acabó con la vida de 11 miembros de una brigada antiincendios. Hicieron falta 17 días para extinguirlo y devastó más de 12.700 hectáreas.</p>
+                  <div class="butFire" id="2005190182">Ver incendio</div>
+                  <p>Sin embargo, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según adelantó el Ministerio</a> a abril de 2013, <b>el año más aciago del siglo XXI para los bosques fue 2012. El fuego quemó 209.855 hectáreas de superficie forestal</b>, o 2.098 km². Para poner en valor esa cifra, apuntamos que la provincia de Guipúzcoa tiene 1.980 km². Los datos oficiales definitivos se podrán consultar en 2014.</p>
                   </div>
                   <div id="t6" class="txtf">
                     <p>Galicia es la comunidad autónoma donde se produjeron más incendios entre 2001 y 2012: Un 41% del total de España. La mayoría fueron intencionados, hasta un 81%. Pontevedra y Orense fueron las provincias más afectadas.</p>
-                    <p>2006 fue fatídico para Galicia y sus bosques. Sólo en julio y agosto se iniciaron más de 4.000 fuegos. Para finales de diciembre, las llamas habían arrasado 95.947 hectáreas de superficie forestal, casi un tercio del total de las quemadas en Galicia entre 2001 y 2012. Exactamente un 28%.</p>
+                    <p>2006 fue fatídico para Galicia y sus bosques. Sólo en julio y agosto se iniciaron más de 4.000 fuegos. Para finales de diciembre, las llamas habían arrasado 95.947 hectáreas de superficie forestal, casi un tercio del total de las quemadas en Galicia entre 2001 y 2012. Exactamente un 27,67%.</p>
                     <p>No obstante, las cifras oficiales facilitadas en el <i>Cuarto Inventario Forestal Nacional</i> relativo a Galicia (2011) indican que desde 1974 la superficie arbolada en esa región “se ha incrementado en un 27%”. Asimismo, señala ese informe que “la cantidad de árboles y el volumen de madera de las especies arbóreas presentes en los montes gallegos crecieron entre el 30% y el 45%” respecto al Tercer Inventario, publicado en 2001.</p>
                   </div>
                   <div id="t7" class="txtf">
