@@ -54,11 +54,11 @@ Template Name: España en Llamas - Guided Tour
                   <div id="2" class="titular-his">Grandes Incendios Forestales</div>
                   <div id="8" class="titular-his">Espacios Naturales... ¿Protegidos?</div>
                   <div id="4" class="titular-his">2003: Rayos en Extremadura</div>
-                  <div id="5" class="titular-his">2005: El peor año de la década</div>
+                  <div id="5" class="titular-his">2005: 17 muertes</div>
                   <div id="6" class="titular-his">2006: Año negro en Galicia</div>
                   <div id="7" class="titular-his">2007: El fuego arrasa Canarias</div>
                   <div id="9" class="titular-his">2011: Octubre Rojo</div>
-                  <div id="3" class="titular-his">2012: El peor año de la década</div>
+                  <div id="3" class="titular-his">2012: El peor año del siglo XXI</div>
                 </div>
                 <div id="textos-historias">
                   <div id="t1" class="txtf">
@@ -68,25 +68,23 @@ Template Name: España en Llamas - Guided Tour
                   </div>
                   <div id="t2" class="txtf">
                     <p>Los incendios de 500 hectáreas o más ─denominados oficialmente "grandes incendios forestales" (GIF) ─ son pocos en número, pero sus consecuencias son devastadoras. En términos cuantitativos, representan tan sólo el 0,17 por ciento del total de los incendios ocurridos entre 2001 y 2012. Sin embargo, causaron el 42% del total de la superficie quemada.</p>
-                    <p>La Rioja es la única comunidad autónoma donde no ha habido ningún gran incendio forestal registrado.</p>
-                    <p>Algunas organizaciones ecologistas aseguran que reduciendo los GIF se mejoraría el problema del fuego en nuestro país. En sus informes, todas ellas insisten en que la mejor política es la prevención.</p>
+                    <p>WWF España destaca en su informe <a href="http://www.wwf.es/que_hacemos/bosques/problemas/incendios_forestales/" target="_blank">Los bosques después del fuego</a>  de 2014 que en ciertas Comunidades Autónomas como la gallega o la valenciana más del 85% de los GIF se originan en masas forestales donde se han plantado especies monoespecíficas muy inflamables que facilitan la propagación del fuego como  Eucaliptus, Pinus halepensis o Pinus pinaster. Propone la regeneración de bosques mixtos e irregulares con especies autóctonas más resistentes a los incendios.</p>
                   </div>      
                   <div id="t3" class="txtf">
-                    <p>Las cifras de 2012 superan al resto de años del periodo 2001-2012 en todos los indicadores</p>
-                    <p>Lorem Ipsum</p>
-                    <div class="butFire" id="2005190182">Ver incendio</div>
-                    <p>Sin embargo, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según adelantó el Ministerio</a> a abril de 2013, <b>el año más aciago del siglo XXI para los bosques fue 2012. El fuego quemó 209.855 hectáreas de superficie forestal</b>, o 2.098 km². Para poner en valor esa cifra, apuntamos que la provincia de Guipúzcoa tiene 1.980 km². Los datos oficiales definitivos se podrán consultar en 2014.</p>
+                  <p>El verano de 2012 fue extremadamente <a href="http://www.aemet.es/documentos/es/serviciosclimaticos/vigilancia_clima/resumenes_climat/anuales/res_anual_clim_2012.pdf" target="_blank">cálido y seco</a> en España, condiciones que favorecieron que ese año haya sido el peor en términos de superficie forestal calcinada desde 1994, cuando se quemaron casi medio millón de hectáreas.</p>
+                  <p>En 2012 ardieron 216.893 ha, una extensión equivalente a la provincia de Vizcaya. De los 15.978 incendios ocurridos, más de nueve mil fueron intencionados. Entre éstos, al menos 2.888 fueron provocados por pastores y ganaderos para regenerar el pasto; 211 para facilitar la caza; o 143 por venganzas.</p>
+                  <p>La Comunidad Valenciana sufrió especialmente el rigor de los incendios veraniegos y encabezó el ranking por CCAA: 56.931 ha calcinadas. Sólo el iniciado en Cortes de Pallás (Valencia), debido a una negligencia de dos operarios que estaban soldando unas placas solares en plena ola de calor, quemó 28.879 ha. Se convirtió así en el segundo más grave del siglo XXI después del siniestro de Río Tinto (Huelva), que en 2004 hizo arder 29.867 ha.</p>
                   </div>
                   <div id="t4" class="txtf">
                     <p>Las tormentas secas del verano de 2003 hicieron arder Extremadura. Los rayos iniciaron los incendios más devastadores. Sólo en los dos primeros días de agosto hubo hasta 15 fuegos que carbonizaron más de 16.500 hectáreas.</p>
-                    <p>Sólo en ese año ardió un tercio de todas las hectáreas forestales quemadas en Extremadura entre 2001 y 2012.</p>
+                    <p>En ese año ardió un tercio de todas las hectáreas forestales quemadas en Extremadura entre 2001 y 2012.</p>
                     <p>De acuerdo con las estadísticas oficiales y el análisis de las mismas realizado por <a href="http://www.civio.es" target="_blank">Civio</a>, en ese mismo intervalo de años los rayos provocaron 8.676 incendios forestales en España, un 4,3% del total, que quemaron 86.412 ha, una cifra equivalente al 5,93% de la superficie calcinada.</p>
                   </div>
                   <div id="t5" class="txtf">
-                  <p>Las cifras de 2005 superan al resto de años del periodo 2001-2011 en todos los indicadores: Número de incendios, superficie quemada, heridos y muertos. Ardieron 188.697 hectáreas, un 15% del total. Además, hubo 17 fallecidos y 102 heridos.</p>
-                  <p>El peor incendio empezó el 16 de julio en Riba de Saelices (Guadalajara). Fue provocado por unos excursionistas que manipulaban una barbacoa. Acabó con la vida de 11 miembros de una brigada antiincendios. Hicieron falta 17 días para extinguirlo y devastó más de 12.700 hectáreas.</p>
-                  <div class="butFire" id="2005190182">Ver incendio</div>
-                  <p>Sin embargo, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según adelantó el Ministerio</a> a abril de 2013, <b>el año más aciago del siglo XXI para los bosques fue 2012. El fuego quemó 209.855 hectáreas de superficie forestal</b>, o 2.098 km². Para poner en valor esa cifra, apuntamos que la provincia de Guipúzcoa tiene 1.980 km². Los datos oficiales definitivos se podrán consultar en 2014.</p>
+                    <p>En lo que va de siglo XXI, las cifras de 2005 arrojan un saldo trágico: es el año con mayor número de incendios (25.492) y el segundo con mayor superficie quemada tras 2012 (hasta 188.697 ha). Además, fallecieron 17 personas y resultaron heridas otras 102, siendo así el año con más pérdidas humanas.</p>
+                    <p>El peor incendio empezó el 16 de julio en Riba de Saelices (Guadalajara) y no pudo ser extinguido hasta 17 días después. Fue provocado por unos excursionistas que estaban preparando una barbacoa. El fuego acabó con la vida de 11 miembros de un retén antiincendios y devastó 12.733 hectáreas.</p>
+                    <div class="butFire" id="2005190182">Ver incendio</div>
+                    <p>Una <a href="http://www.lexnews.es/wp-content/uploads/2012/07/STC-IMPRUDENCIA-GRAVE-INCENDIO-DE-GUADALAJARA-AUDIENCIA.pdf" target="_blank">sentencia</a> de 2012 de la Audiencia Provincial de Guadalajara condenó a M.H.S. a dos años de prisión como autor de un delito de incendio forestal cometido por imprudencia grave, pero lo exoneró de la muerte de los brigadistas. Le impuso también un pago de 10,6 millones de euros al erario público. Otros dos imputados fueron absueltos. El Supremo confirmó el fallo en <a href="http://www.poderjudicial.es/search/doAction?action=contentpdf&databasematch=TS&reference=6737728&links=438/2013&optimize=20130607&publicinterface=true" target="_blank">resolución</a> de 2013.</p>
                   </div>
                   <div id="t6" class="txtf">
                     <p>Galicia es la comunidad autónoma donde se produjeron más incendios entre 2001 y 2012: Un 41% del total de España. La mayoría fueron intencionados, hasta un 81%. Pontevedra y Orense fueron las provincias más afectadas.</p>
@@ -97,7 +95,7 @@ Template Name: España en Llamas - Guided Tour
                     <p>El 62% de las hectáreas quemadas en Canarias durante el periodo 2001-2012 se perdieron en un solo año: 2007. Dos incendios intencionados, uno en Las Palmas y otro en Tenerife, fueron los más devastadores.</p>
                     <p>El primer de ellos comenzó el 27 de julio en Tejeda. Duró 29 días y quemó 18.673 hectáreas. Las llamas alcanzaron la Reserva Natural de Inagua, un pinar de unas 3.500 ha que quedó abrasado casi por completo, según los datos del Ministerio de Agricultura, Alimentación y Medio Ambiente (MAGRAMA). Tres días después, el 30 de julio, otro fuego iniciado en Los Realejos (Tenerife) afectó al Parque Nacional de Las Cañadas del Teide.</p>
                     <p>2012 fue también un año siniestro para Canarias. Se produjeron hasta cuatro grandes incendios forestales –500 ha o más-, <a href="http://www.magrama.gob.es/es/biodiversidad/estadisticas/avance31dic2012def_tcm7-257793.pdf" target="_blank">según informó en abril pasado el MAGRAMA</a>. El fuego que afectó al Parque Nacional de Garajonay, declarado Patrimonio de la Humanidad en 1986, arrasó el 8% de la superficie total de la isla de La Gomera.</p>
-                  </div>
+                    </div>
                   <div id="t8" class="txtf">
                     <p>El 15% del suelo calcinado entre 2005 (primer dato disponible) y 2012 estaba en un espacio natural protegido. El hecho de estar "protegido" no los pone a salvo de las llamas.</p>
                     <p>Un caso llamativo es el Parque Natural del Lago de Sanabria (Zamora), el mayor lago de origen glaciar de la Península. En tan sólo siete años sufrió 176 incendios que abrasaron 15.737 hectáreas, según los datos facilitados por el Ministerio de Agricultura, Alimentación y Medio Ambiente. Casi todos esos fuegos figuran en los partes oficiales de incendios como intencionados.</p>
