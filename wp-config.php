@@ -15,9 +15,25 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-//$db = parse_url($_ENV["DATABASE_URL"]);
-$db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://jjelosua@localhost:5432/espanaenllamas");
-// ** MySQL settings - You can get this info from your web host ** //
+/** Local config in a mac set an environment variable in the MAMP apache config
+    /Applications/MAMP/conf/apache/httpd.conf
+    <VirtualHost *:8888>
+        SetEnv DATABASE_URL 'postgres://user:pass@localhost:5432/dbname'
+        ErrorLog /Applications/MAMP/logs/eell_error.log
+    </VirtualHost> 
+    Then try to read ENV var first and if we miss read from SERVER
+    if (isset($_ENV["DATABASE_URL"]))
+        $db = parse_url($_ENV["DATABASE_URL"]);
+    else
+        $db = parse_url($_SERVER["DATABASE_URL"]);
+
+    Then parse as usual in production
+*/
+if (isset($_ENV["DATABASE_URL"]))
+  $db = parse_url($_ENV["DATABASE_URL"]);
+else
+  $db = parse_url($_SERVER["DATABASE_URL"]);
+
 /** The name of the database for WordPress */
 define('DB_NAME', trim($db["path"],"/"));
 
@@ -81,7 +97,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 

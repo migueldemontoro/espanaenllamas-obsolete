@@ -22,6 +22,8 @@ define( 'PG4WP_LOG_ERRORS', false);
 
 // If you want to allow insecure configuration (from the author point of view) to work with PG4WP,
 // change this to true
+// You need to switch this to true if using an username with no pass
+//define( 'PG4WP_INSECURE', false);
 define( 'PG4WP_INSECURE', true);
 
 // This defines the directory where PG4WP files are loaded from
