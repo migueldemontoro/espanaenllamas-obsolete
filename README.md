@@ -185,8 +185,10 @@ Updating data to EeL to my future self
 
 3. Restore the dump in a freshly created Postgres DB
 
+    ```
     $ createdb dbname
     $ pg_restore --verbose --clean --no-acl --no-owner -h localhost -U myuser -d mydb latest.dump
+    ```
 
 4. Enter the database through pg_admin and point SITE_URL and home inside the wp_options table to wherever the MAMP server is running (http://localhost:8888)
 
@@ -205,14 +207,6 @@ Updating data to EeL to my future self
 8. Once everything is updated push to heroku from the production branch (NOT MASTER)
 
     $ git push heroku production:master
-
-Clear `.gitignore` and commit `wp-config.php`
-
-    $ >.gitignore
-    $ git add .
-    $ git commit -m "Initial WordPress commit"
-
-Deploy to Heroku
 
 
 
