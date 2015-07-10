@@ -178,8 +178,8 @@ If you find yourself running into problems, there is a guide posted in the Herok
 
 Updating data to EeL to my future self
 ======================================
-1. Connect to heroku and create a new Postgres Backup
-http://postgres.heroku.com/actions/capture_backup?heroku_resource_id=resource3531760%40heroku.com
+1. Connect to heroku and [create a new Postgres Backup](http://postgres.heroku.com/actions/capture_backup?heroku_resource_id=resource3531760%40heroku.com)
+
 
 2. Download the latest backup dump file and rename it as latest.dump
 
@@ -205,6 +205,14 @@ http://postgres.heroku.com/actions/capture_backup?heroku_resource_id=resource353
 8. Once everything is updated push to heroku from the production branch (NOT MASTER)
 
     $ git push heroku production:master
+
+Clear `.gitignore` and commit `wp-config.php`
+
+    $ >.gitignore
+    $ git add .
+    $ git commit -m "Initial WordPress commit"
+
+Deploy to Heroku
 
 
 
