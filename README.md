@@ -206,7 +206,9 @@ Updating data to EeL to my future self
 
 8. Once everything is updated push to heroku from the production branch (NOT MASTER)
 
+
     $ git push heroku production:master
+
 
 
 
