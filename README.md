@@ -175,3 +175,42 @@ Once the DNS A records propagate, then simply test out your change by hitting th
 The last step is updating your WordPress installation to recognize the new domain.  You'll need to open up the WordPress Admin Dashboard and go to Settings --> General.  From there just update the URL for the WordPress address and you're done.
 
 If you find yourself running into problems, there is a guide posted in the Heroku Docs which can be found [here](https://devcenter.heroku.com/articles/custom-domains).
+
+Updating data to EeL to my future self
+======================================
+1. Connect to heroku and create a new Postgres Backup
+http://postgres.heroku.com/actions/capture_backup?heroku_resource_id=resource3531760%40heroku.com
+
+2. Download the latest backup dump file and rename it as latest.dump
+
+3. Restore the dump in a freshly created Postgres DB
+
+    $ createdb dbname
+    $ pg_restore --verbose --clean --no-acl --no-owner -h localhost -U myuser -d mydb latest.dump
+
+4. Enter the database through pg_admin and point SITE_URL and home inside the wp_options table to wherever the MAMP server is running (http://localhost:8888)
+
+5. Go to the MAMP apache configuration and create a VirtualHost to store the DATABASE_URL at the end of the file
+   ```
+   <VirtualHost *:8888>
+        SetEnv DATABASE_URL 'postgres://user:pass@localhost:5432/dbname'
+        ErrorLog /Applications/MAMP/logs/eell_error.log
+    </VirtualHost>
+    ``` 
+
+6. If in a new machine download MAMP and configure the root document to point to the repo
+
+7. Open up a browser point to the MAMP server and hopefully everything is ready for the update process
+
+8. Once everything is updated push to heroku from the production branch (NOT MASTER)
+
+    $ git push heroku production:master
+
+
+
+
+
+
+
+
+
