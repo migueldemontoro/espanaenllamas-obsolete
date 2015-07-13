@@ -2,9 +2,9 @@ Estos datos han sido extraídos de una copia de la Base de datos EGIF que
 gestiona el Ministerio de agricultura, alimentación y medio ambiente.
 
 El fichero consta de los incendios cuya superficie forestal quemada
-es mayor o igual a 100Ha dentro del periodo de estudio.
+es mayor o igual a 100Ha dentro del periodo (2001-2011).
 
-"IDPIF","SUPQUEMADA","MUERTOS","HERIDOS","COMUNIDAD","PROVINCIA","COMARCA","MUNICIPIO","LATITUD","LONGITUD","FECHA","TIME_CTRL","TIME_EXT","IDGRUPOCAUSA","CAUSA","PERSONAL","PESADOS","AEREOS","GASTOS_EXT","PERDIDAS"
+"IDPIF","SUPQUEMADA","MUERTOS","HERIDOS","COMUNIDAD","PROVINCIA","COMARCA","MUNICIPIO","LATITUD","LONGITUD","FECHA","TIME_CTRL","TIME_EXT","IDGRUPOCAUSA","DESC_CAUSA",
 Explicación de los campos presentes en el CSV:
 -IDPIF: Identificador interno del incendio 
 -SUPQUEMADA: Superficie forestal quemada

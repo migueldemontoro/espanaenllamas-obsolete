@@ -790,7 +790,7 @@ var supQinf = 100.0;
 var supQsup = 30000.0;
 var colorInt = null;
 var colorNint = null;
-var availableYears = d3.range(2001,2013);
+var availableYears = d3.range(2001,2014);
 /******************************************TIME ANIMATION FUNCTIONS***********************************************/
 var intervalID = null;
 var counter = 0;
