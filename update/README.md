@@ -29,5 +29,7 @@ Normally this data comes in the form of a zipped file with two linked MS Access 
 
 5. Then some Excel templates to create an update QUERY out of the previous step output data and we are ready to insert our geolocation to the forest fires and cities.
 
-6. We can use the provided MySQL schema to create the DB inside MySQL _eel\_schema.sql_ and populate it with the new data
+6. We can use the provided MySQL schema to create the DB inside MySQL _eel\_schema.sql_ and populate it with the new data by itself
+
+7. After that we need to merge the old dataset with the new dataset but that is explained in [another document](./MySQL/queries/merge.md)
 
