@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Municipios España 2012 simplificados 200m</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Guntín</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>CODMUN_INE:</b> 270235<br>
+<b>IDmuni:</b> 27023<br>
+<b>Nombre:</b> Guntín<br>
+<b>IDprov:</b> 27<br>
+<b>IDcomu:</b> 12<br>
+<b>geometry:</b> -7.737721,42.978281 -7.746405,42.979606 -7.755784,42.975153 -7.756519,42.953237 -7.761982,42.949068 -7.787604,42.942719 -7.787531,42.93752 -7.775023,42.925044 -7.766745,42.926352 -7.757173,42.923906 -7.738273,42.91388 -7.73423,42.904443 -7.737609,42.895976 -7.732339,42.890477 -7.717562,42.892259 -7.710583,42.883741 -7.713574,42.878503 -7.728422,42.880745 -7.739442,42.862426 -7.737446,42.853138 -7.715516,42.858077 -7.715906,42.865435 -7.688447,42.871941 -7.688099,42.876069 -7.681598,42.876363 -7.670716,42.867139 -7.665083,42.86888 -7.657194,42.86326 -7.64177,42.863699 -7.636761,42.857772 -7.62476,42.854056 -7.618466,42.855469 -7.615566,42.849403 -7.608346,42.84676 -7.609591,42.831115 -7.605198,42.827306 -7.603943,42.830994 -7.598894,42.828395 -7.597194,42.824108 -7.589658,42.831667 -7.58782,42.837404 -7.56447,42.832296 -7.562397,42.841022 -7.57138,42.84421 -7.574365,42.858594 -7.555879,42.864304 -7.550418,42.876082 -7.537313,42.875143 -7.531755,42.886977 -7.518059,42.892885 -7.517278,42.895268 -7.524846,42.904312 -7.537703,42.907124 -7.560668,42.905326 -7.563224,42.886383 -7.567904,42.88444 -7.580032,42.888015 -7.574367,42.91038 -7.596721,42.919133 -7.597576,42.928633 -7.606295,42.934485 -7.617508,42.93713 -7.627024,42.932342 -7.645217,42.934285 -7.648379,42.93657 -7.646809,42.951668 -7.668836,42.952363 -7.675562,42.955402 -7.683063,42.952979 -7.72124,42.954586 -7.732866,42.958831 -7.733774,42.974151
+</div>]]></description>
+			<styleUrl>#Style2-polygon-3-map</styleUrl>
+			<ExtendedData>
+				<Data name='CODMUN_INE'>
+					<value>270235</value>
+				</Data>
+				<Data name='IDmuni'>
+					<value>27023</value>
+				</Data>
+				<Data name='IDprov'>
+					<value>27</value>
+				</Data>
+				<Data name='IDcomu'>
+					<value>12</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-7.737721,42.978281 -7.746405,42.979606 -7.755784,42.975153 -7.756519,42.953237 -7.761982,42.949068 -7.787604,42.942719 -7.787531,42.93752 -7.775023,42.925044 -7.766745,42.926352 -7.757173,42.923906 -7.738273,42.91388 -7.73423,42.904443 -7.737609,42.895976 -7.732339,42.890477 -7.717562,42.892259 -7.710583,42.883741 -7.713574,42.878503 -7.728422,42.880745 -7.739442,42.862426 -7.737446,42.853138 -7.715516,42.858077 -7.715906,42.865435 -7.688447,42.871941 -7.688099,42.876069 -7.681598,42.876363 -7.670716,42.867139 -7.665083,42.86888 -7.657194,42.86326 -7.64177,42.863699 -7.636761,42.857772 -7.62476,42.854056 -7.618466,42.855469 -7.615566,42.849403 -7.608346,42.84676 -7.609591,42.831115 -7.605198,42.827306 -7.603943,42.830994 -7.598894,42.828395 -7.597194,42.824108 -7.589658,42.831667 -7.58782,42.837404 -7.56447,42.832296 -7.562397,42.841022 -7.57138,42.84421 -7.574365,42.858594 -7.555879,42.864304 -7.550418,42.876082 -7.537313,42.875143 -7.531755,42.886977 -7.518059,42.892885 -7.517278,42.895268 -7.524846,42.904312 -7.537703,42.907124 -7.560668,42.905326 -7.563224,42.886383 -7.567904,42.88444 -7.580032,42.888015 -7.574367,42.91038 -7.596721,42.919133 -7.597576,42.928633 -7.606295,42.934485 -7.617508,42.93713 -7.627024,42.932342 -7.645217,42.934285 -7.648379,42.93657 -7.646809,42.951668 -7.668836,42.952363 -7.675562,42.955402 -7.683063,42.952979 -7.72124,42.954586 -7.732866,42.958831 -7.733774,42.974151</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+	</Document>
+</kml>
