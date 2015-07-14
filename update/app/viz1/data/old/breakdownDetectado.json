@@ -1,0 +1,68 @@
+{
+"name" : "Detectado por",
+"children" :
+  [
+  {"name": "VIGILANTE FIJO",
+    "children" : [
+      {"name": "RAYO","value":2709,"SUPQUEMADA": "45512.6200"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":6365,"SUPQUEMADA": "74959.0900"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":2529,"SUPQUEMADA": "48773.4800"},
+      {"name": "INTENCIONADO","value":30607,"SUPQUEMADA": "326589.6200"},
+      {"name": "CAUSA DESCONOCIDA","value":5163,"SUPQUEMADA": "29417.8500"},
+      {"name": "INCENDIO REPRODUCIDO","value":1349,"SUPQUEMADA": "11623.3200"}]
+  },
+  {"name": "AGENTE FORESTAL",
+    "children" : [
+      {"name": "RAYO","value":969,"SUPQUEMADA": "6137.0600"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":5579,"SUPQUEMADA": "29902.0700"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":626,"SUPQUEMADA": "6337.1200"},
+      {"name": "INTENCIONADO","value":15437,"SUPQUEMADA": "138418.7500"},
+      {"name": "CAUSA DESCONOCIDA","value":1983,"SUPQUEMADA": "11649.1800"},
+      {"name": "INCENDIO REPRODUCIDO","value":507,"SUPQUEMADA": "2651.5800"}]
+  },
+  {"name": "VIGILANTE MÓVIL",
+    "children" : [
+      {"name": "RAYO","value":394,"SUPQUEMADA": "707.8600"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":1001,"SUPQUEMADA": "4946.0800"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":190,"SUPQUEMADA": "1508.9300"},
+      {"name": "INTENCIONADO","value":4490,"SUPQUEMADA": "18590.2300"},
+      {"name": "CAUSA DESCONOCIDA","value":1155,"SUPQUEMADA": "6288.1400"},
+      {"name": "INCENDIO REPRODUCIDO","value":238,"SUPQUEMADA": "2008.1100"}]
+  },
+  {"name": "AERONAVE",
+    "children" : [
+      {"name": "RAYO","value":129,"SUPQUEMADA": "2384.0900"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":248,"SUPQUEMADA": "1871.9500"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":38,"SUPQUEMADA": "329.1200"},
+      {"name": "INTENCIONADO","value":599,"SUPQUEMADA": "9546.5900"},
+      {"name": "CAUSA DESCONOCIDA","value":240,"SUPQUEMADA": "921.2600"},
+      {"name": "INCENDIO REPRODUCIDO","value":36,"SUPQUEMADA": "76.5600"}]
+  },
+  {"name": "LLAMADA PARTICULAR",
+    "children" : [
+      {"name": "RAYO","value":2548,"SUPQUEMADA": "12981.4500"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":12766,"SUPQUEMADA": "68064.8100"},
+      {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":2452,"SUPQUEMADA": "24182.3400"},
+      {"name": "INTENCIONADO","value":34625,"SUPQUEMADA": "165356.0100"},
+      {"name": "CAUSA DESCONOCIDA","value":11959,"SUPQUEMADA": "33567.6200"},
+      {"name": "INCENDIO REPRODUCIDO","value":1428,"SUPQUEMADA": "5824.0500"}]
+  },
+  {"name": "LLAMADAS AL 112",
+     "children" : [
+        {"name": "RAYO","value":940,"SUPQUEMADA": "11709.9300"},
+        {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":7860,"SUPQUEMADA": "48549.5800"},
+        {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":1683,"SUPQUEMADA": "40115.6400"},
+        {"name": "INTENCIONADO","value":11165,"SUPQUEMADA": "81857.6800"},
+        {"name": "CAUSA DESCONOCIDA","value":3980,"SUPQUEMADA": "13327.7100"},
+        {"name": "INCENDIO REPRODUCIDO","value":360,"SUPQUEMADA": "1389.2000"}]
+  },
+  {"name": "OTROS",
+     "children" : [
+        {"name": "RAYO","value":987,"SUPQUEMADA": "6979.1700"},
+        {"name": "NEGLIG. Y CAUSAS ACCID. (AGRÍCOLA)","value":5417,"SUPQUEMADA": "23632.6400"},
+        {"name": "NEGLIG. Y CAUSAS ACCID. (MOTORES)","value":1007,"SUPQUEMADA": "6560.4800"},
+        {"name": "INTENCIONADO","value":15693,"SUPQUEMADA": "109415.9900"},
+        {"name": "CAUSA DESCONOCIDA","value":5083,"SUPQUEMADA": "17642.0100"},
+        {"name": "INCENDIO REPRODUCIDO","value":683,"SUPQUEMADA": "4313.9900"}]
+  }]
+}
