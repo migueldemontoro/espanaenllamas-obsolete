@@ -33,3 +33,13 @@ Normally this data comes in the form of a zipped file with two linked MS Access 
 
 7. After that we need to merge the old dataset with the new dataset but that is explained in [another document](./MySQL/queries/merge.md)
 
+8. In the admin of the production site we need to update the following items:
+
+    * Pages:
+        * Metodología
+        * ¿Quién detecta los incendios?
+        * Top100 Municipios
+        * Tiempos de actuación por CCAA
+
+
+
