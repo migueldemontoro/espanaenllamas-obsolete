@@ -184,6 +184,41 @@ FROM PIF9 p9, PENP pe
 WHERE p9.IDPIF = pe.IDPIF
 AND pe.IDENP = 4922003;
 
+#Metodología - Causalidad
+SELECT p4.IDCAUSA, c.DESCRIPCION, COUNT(*) as numIncendios, COUNT(*) / T.total *100 as perc_incendios
+FROM PIF4 p4, CAUSA c,
+(SELECT COUNT(*) as total FROM PIF4 p4) as T
+WHERE p4.IDCAUSA = c.IDCAUSA
+AND c.IDIDIOMA = 0
+GROUP BY p4.IDCAUSA, c.DESCRIPCION;
+
+#Metodología - Geolocalización
+SELECT COUNT(*) as numIncendios, COUNT(*) / T.total *100 as perc_incendios
+FROM PIF1 p1,
+(SELECT COUNT(*) as total FROM PIF1 p1) as T
+WHERE p1.LATITUD IS NULL
+OR p1.LONGITUD IS NULL;
+
+#Metodología - Perdidas económicas
+SELECT COUNT(DISTINCT pd7.IDPIF) as numIncendios, COUNT(DISTINCT pd7.IDPIF) / T.total *100 as perc_incendios
+FROM PDPM7 pd7,
+(SELECT COUNT(DISTINCT pd7.IDPIF) as total FROM PDPM7 pd7) as T
+WHERE pd7.TOTALPER IS NOT NULL AND pd7.TOTALPER <> 0;
+
+#Metodología - Gastos de extinción
+SELECT COUNT(DISTINCT pd7.IDPIF) as numIncendios, COUNT(DISTINCT pd7.IDPIF) / T.total *100 as perc_incendios
+FROM PDPM7 pd7,
+(SELECT COUNT(DISTINCT pd7.IDPIF) as total FROM PDPM7 pd7) as T
+WHERE pd7.GEXT IS NOT NULL AND pd7.GEXT <> 0;
+
+#Metodología >=100Ha
+SELECT COUNT(*)-2, SUM(p9.totalar+p9.totalnar) as supquemada, SUM(p9.totalar+p9.totalnar) / T.supTotal * 100 AS perc_sup
+FROM PIF9 p9,
+(SELECT COUNT(*) AS total, SUM(p9.totalar + p9.totalnar) as supTotal FROM PIF9 p9) AS T
+WHERE (p9.totalar+p9.totalnar) >= 100;
+
+
+
 
 
 
