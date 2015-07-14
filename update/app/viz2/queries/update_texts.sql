@@ -35,6 +35,7 @@ percentile_cont(array_agg(cast(EXTRACT(EPOCH FROM (p2."COMB_EXT" - p2."COMB_DET"
 from "PIF9" p9, "PIF1" p1, "PIF2" p2
 WHERE p9."IDPIF" = p1."IDPIF"
 AND p9."IDPIF" = p2."IDPIF"
+AND p1."IDCOMUNIDAD" <> 18
 AND p2."COMB_EXT" is not NULL AND p2."COMB_CTRL" is not NULL and p2."COMB_LLEGPMT" is not NULL;
 
 #Vis2 - Data (Postgresql with required functions) by region
