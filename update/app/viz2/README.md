@@ -72,4 +72,6 @@ In order to compute the medians needed for this visualization the easiest way to
 _It might throw an error regarding the creation of an index, if so create a primary key for IDPIF and ICOMUNIDAD manually_
 
 6. Run the appropiate query to obtain the data
+
+7. Get rid of Ceuta since it does not have enough data to be meaningful
  
