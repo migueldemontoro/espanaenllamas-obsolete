@@ -29,21 +29,21 @@ Template Name: España en Llamas - Explore
             <div class="entry-content" id="super-contenedor">
               <div id="segunda-parte">
                 <div id="entradilla">
-                  Los 203.217 incendios forestales ocurridos entre 2001 y 2012 quemaron 1.456.621 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 63,4% del total de la superficie quemada.
+                  Los 214.012 incendios forestales ocurridos entre 2001 y 2013 quemaron 1.518.108 hectáreas (ha), una superficie mayor que la que tienen 9 de las 17 Comunidades Autónomas españolas, entre ellas: Murcia, Asturias, Navarra, Madrid o País Vasco. En el mapa mostramos los incendios que calcinaron 100 ha o más, equivalente a un 63,1% del total de la superficie quemada.
                 </div>
                 
                 <div id="grandes-cifras">  
                   <div id="tit-cifras">Cifras de incendios de 100 hectáreas o más (mostrados en el mapa)</div>
                   <ul id="gcifras-int">
-                    <li>1.883 <span>incendios</span></li>
-                    <li>1.176 <span>intencionados</span></li>
-                    <li class="ultimo">923.795 <span>ha quemadas</span></li>
+                    <li>1.974 <span>incendios</span></li>
+                    <li>1.228 <span>intencionados</span></li>
+                    <li class="ultimo">958.364 <span>ha quemadas</span></li>
                   </ul>
                   <div id="tit-cifras"></div>
                   <ul id="gcifras-int">
                     <li>36 <span>muertos</span></li>
-                    <li>226 <span>heridos</span></li>
-                    <li class="ultimo"><span>Costaron más de </span>1.100M €</li>
+                    <li>229 <span>heridos</span></li>
+                    <li class="ultimo"><span>Costaron más de </span>2.400M €</li>
                   </ul>
                 </div>
               </div>
