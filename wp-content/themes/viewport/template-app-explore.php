@@ -229,7 +229,7 @@ Template Name: España en Llamas - Explore
               </div>
 
               <div class="firmafuente">
-                <a href="http://www.espanaenllamas.es/metodologia-del-mapa-de-incendios/">Metodología: Cómo se hizo el mapa de España en Llamas</a>.
+                <a href="/index.php/metodologia-del-mapa-de-incendios">Metodología: Cómo se hizo el mapa de España en Llamas</a>.
               </div>
               <div class="firmafuente">
                 Realizado por la <a href="http://civio.es" target="_blank">Fundación Ciudadana Civio</a>, en colaboración con <a href="http://es.linkedin.com/pub/juan-elosua/b/274/689" target="_blank">Juan Elosua</a> y <a href="http://thisisvisual.info" target="_blank">This is Visual</a>.<br />
