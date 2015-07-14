@@ -1,4 +1,0 @@
-update MUNICIPIOS table
-=======================
-
-TODO
