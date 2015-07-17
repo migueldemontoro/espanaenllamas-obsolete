@@ -22,7 +22,13 @@ define( 'PG4WP_LOG_ERRORS', false);
 
 // If you want to allow insecure configuration (from the author point of view) to work with PG4WP,
 // change this to true
-define( 'PG4WP_INSECURE', false);
+// You need to switch this to true if using an username with no pass
+// Check if we are in production by testing if DATABASE_URL is available in env
+if (isset($_ENV["DATABASE_URL"]))
+    define( 'PG4WP_INSECURE', false);
+else
+  define( 'PG4WP_INSECURE', true);
+
 
 // This defines the directory where PG4WP files are loaded from
 //   2 places checked : wp-content and wp-content/plugins

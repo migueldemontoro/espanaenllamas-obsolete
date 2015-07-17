@@ -19,7 +19,7 @@ Template Name: España en Llamas - Vis3
             <h1 class="entry-title"><?php the_title(); ?></h1>
                       <?php if ( current_user_can( 'edit_post', $post->ID ) ): ?>
                         
-                      <!--BEGIN .entry-meta .entry-header-->
+            <!--BEGIN .entry-meta .entry-header-->
             <div class="entry-meta entry-header">
               <?php edit_post_link( __('edit', 'zilla'), '<span class="edit-post">[', ']</span>' ); ?>
             <!--END .entry-meta .entry-header-->

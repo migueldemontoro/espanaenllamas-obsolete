@@ -554,10 +554,11 @@ function switchNews(id) {
       supQsup=30000.0;
       update();
       break;
-    //El día maldito
+    //2005: El peor año de la década
     case "3":
       resetFilters();
-      updateMapDate(0,7,27)
+      currentYear=2012;
+      update();
       break;
     //2003: Arde extremadura
     case "4":
@@ -789,7 +790,7 @@ var supQinf = 100.0;
 var supQsup = 30000.0;
 var colorInt = null;
 var colorNint = null;
-var availableYears = d3.range(2001,2012);
+var availableYears = d3.range(2001,2014);
 /******************************************TIME ANIMATION FUNCTIONS***********************************************/
 var intervalID = null;
 var counter = 0;
