@@ -285,6 +285,7 @@ function initSearch() {
 /************************************FORMAT INPUT DATA FUNCTIONS*******************************************/
 /*Format fire data*/
 function formatFireData(d) {
+  zindex_offset += 1;
   var b = {};
   b.id = parseInt(d[0].IDPIF);
   b.gRadio = parseFloat(d[0].RADIO_M);
@@ -316,6 +317,7 @@ function formatFireData(d) {
   //Map Vars
   b.gLatLng = new google.maps.LatLng(b.lat, b.lng);
   b.visible = true;
+  b.zindex = zindex_offset;
   b.html = createCartela(b);
   b.mini = createTooltip(b);
   return b;
@@ -791,6 +793,7 @@ var supQsup = 30000.0;
 var colorInt = null;
 var colorNint = null;
 var availableYears = d3.range(2001,2014);
+var zindex_offset = 200;
 /******************************************TIME ANIMATION FUNCTIONS***********************************************/
 var intervalID = null;
 var counter = 0;
