@@ -56,7 +56,6 @@ FireOverlay.prototype.draw = function(force) {
           .each(load);
 
   function load(d,i) {
-    var zIndex = i+ZINDEX_OFFSET;
     var r = d.value.gRadio * pxPerM;
     var offset = ~~(r+1);
     fProj = projection.fromLatLngToDivPixel(d.value.gLatLng);
@@ -65,7 +64,8 @@ FireOverlay.prototype.draw = function(force) {
             .style("top", (fProj.y-offset) + "px")
             .style("width", (2*offset) + "px")
             .style("height", (2*offset) + "px")
-            .style("z-index",zIndex)
+            //.style("z-index",zIndex)
+            .style("z-index",function (d) {return d.value.zindex;})
             .append("svg:circle")
             .attr("class", "fireCircle")
             .attr("r", r)
@@ -79,7 +79,6 @@ FireOverlay.prototype.draw = function(force) {
   }
     
   function refresh(d,i) {
-    var zIndex = i+ZINDEX_OFFSET;
     var r = d.value.gRadio * pxPerM;
     var offset = ~~(r+1);
     fProj = projection.fromLatLngToDivPixel(d.value.gLatLng);
@@ -88,7 +87,7 @@ FireOverlay.prototype.draw = function(force) {
             .style("top", (fProj.y-offset) + "px")
             .style("width", (2*offset) + "px")
             .style("height", (2*offset) + "px")
-            .style("z-index",function (d) {return !d.value.visible ? -1 : zIndex;})
+            .style("z-index",function (d) {return !d.value.visible ? -1 : d.value.zindex;})
             .select(".fireCircle")
             .attr("r", r)
             .attr("cx", offset)
