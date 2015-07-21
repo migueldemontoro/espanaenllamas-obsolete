@@ -1,6 +1,7 @@
 # EeL >= 100Ha query
 select pif1.idpif as 'IDPIF', 
-totalar+totalnar as 'SUPQUEMADA', 
+coalesce(totalar,0)+coalesce(totalnar,0) as 'SUPQUEMADA',
+SQRT((coalesce(totalar,0)+coalesce(totalnar,0))*10000/PI()) as 'RADIO_M',
 if(muertos,muertos,0) as 'MUERTOS', 
 if(heridos,heridos,0) as 'HERIDOS',
 pif1.idcomunidad as 'IDCOMUNIDAD',
@@ -22,27 +23,28 @@ coalesce(bomberos,0)+coalesce(volunorg,0)+coalesce(opercivil,0)+coalesce(guardia
 coalesce(autobomba,0)+coalesce(bulldozer,0)+coalesce(tractores,0)+coalesce(otros,0) as 'PESADOS', 
 coalesce(avianfnum,0)+coalesce(avicarnum,0)+coalesce(helextnum,0)+coalesce(heltranum,0)+coalesce(aercoonum,0) as 'AEREOS',
 sum(coalesce(gext,0)) as 'GASTOS_EXT', sum(coalesce(totalper,0)) as 'PERDIDAS'
-from comunidades, provincias, municipios, motivacion, causas, grupocausas, comarcaoisla,pif9,pif4, 
-pif1 
+from comunidades, provincias, comarcaoisla, municipios, grupocausas, causas, motivacion,
+pif9, pif4, pif1 
     left join pif2 on (pif1.idpif=pif2.idpif) 
     left join pif7 on (pif1.idpif=pif7.idpif)
     left join pdpm7 on (pif1.idpif=pdpm7.idpif)
 where pif1.idpif=pif4.idpif 
 and pif1.idpif=pif9.idpif
 and comunidades.idcomunidad=pif1.idcomunidad
-and provincias.idcomunidad=comunidades.idcomunidad 
+and provincias.idcomunidad=pif1.idcomunidad 
 and provincias.idprovincia=pif1.idprovincia 
-and pif1.idmunicipio=municipios.idmunicipio 
-and municipios.idprovincia=provincias.idprovincia
-and municipios.idcomunidad=comunidades.idcomunidad 
-and comarcaoisla.idcoi=pif1.idcoi 
 and comarcaoisla.idcomunidad=comunidades.idcomunidad 
+and comarcaoisla.idcoi=pif1.idcoi
+and municipios.idcomunidad=pif1.idcomunidad 
+and municipios.idprovincia=pif1.idprovincia
+and pif1.idmunicipio=municipios.idmunicipio 
 and pif4.idgrupocausa=grupocausas.idgrupocausa 
 and grupocausas.ididioma=0
+and pif4.idgrupocausa=causas.idgrupocausa
 and pif4.idcausas=causas.idcausas 
 and causas.ididioma=0
 and motivacion.idmotivacion=IFNULL(pif4.idmotivacion,0)
 and motivacion.ididioma=0
-and totalar+totalnar >= 100
+and coalesce(totalar,0)+coalesce(totalnar,0) >= 100
 group by pif1.idpif
 order by supquemada desc
