@@ -27,7 +27,8 @@ pif1
     left join pif2 on (pif1.idpif=pif2.idpif) 
     left join pif7 on (pif1.idpif=pif7.idpif)
     left join pdpm7 on (pif1.idpif=pdpm7.idpif)
-where pif1.idpif=pif4.idpif and pif1.idpif=pif9.idpif
+where pif1.idpif=pif4.idpif 
+and pif1.idpif=pif9.idpif
 and comunidades.idcomunidad=pif1.idcomunidad
 and provincias.idcomunidad=comunidades.idcomunidad 
 and provincias.idprovincia=pif1.idprovincia 
