@@ -12,7 +12,7 @@ LPAD(p.idprovincia,2,'0') as idProvincia, p.NOMBRE as provincia,
 CONCAT(LPAD(p.idprovincia,2,'0'), LPAD(m.IDMUNICIPIO, 3, '0')) as idMunicipio, 
 m.NOMBRE as municipio,
 COUNT(*) as num_incendios, 
-SUM(p9.totalnar+p9.totalar) as supquemada
+SUM(coalesce(p9.totalnar,0)+coalesce(p9.totalar,0)) as supquemada
 FROM PIF9 p9, PIF1 p1, COMUNIDADES c, PROVINCIAS p, MUNICIPIOS m
 WHERE p9.IDPIF = p1.IDPIF
 AND p1.IDCOMUNIDAD = c.IDCOMUNIDAD
@@ -30,7 +30,7 @@ SELECT LPAD(c.idCCAA_INE,2,'0') as idCCAA_INE, LPAD(c.IDCOMUNIDAD,2,'0') as idCo
 LPAD(p.IDPROVINCIA,2,'0') as idProvincia, p.NOMBRE as provincia,
 CONCAT(LPAD(p.idprovincia,2,'0'), LPAD(m.IDMUNICIPIO, 3, '0')) as idMunicipio, m.NOMBRE as municipio,
 COUNT(*) as num_incendios, 
-SUM(p9.totalnar+p9.totalar) as supquemada
+SUM(coalesce(p9.totalnar,0)+coalesce(p9.totalar,0)) as supquemada
 FROM PIF9 p9, PIF1 p1, COMUNIDADES c, PROVINCIAS p, MUNICIPIOS m
 WHERE p9.IDPIF = p1.IDPIF
 AND p1.IDCOMUNIDAD = c.IDCOMUNIDAD
