@@ -318,4 +318,27 @@ jQuery(document).ready(function($) {
         $(this).attr("src",url+"?wmode=transparent");
     });
 
+
+/*-----------------------------------------------------------------------------------*/
+/*  Ley Montes Infographic Carousel (rauldiazpoblete)
+/*-----------------------------------------------------------------------------------*/
+
+  $('.ley-montes-carousel').append('<div class="feature-navigation"><a href="#" class="prev">Prev</a> <a href="#" class="next">Next</a></div>');
+
+  $('#ley-montes-carousel-1 ul').carouFredSel({
+    width: 'auto',
+    height: 'variable',
+    responsive: true,
+    next: { button: $('#ley-montes-carousel-1 .next') },
+    prev: { button: $('#ley-montes-carousel-1 .prev') },
+    auto: { play: false },
+  });
+  $('#ley-montes-carousel-2 ul').carouFredSel({
+    width: 'auto',
+    height: 'variable',
+    responsive: true,
+    next: { button: $('#ley-montes-carousel-2 .next') },
+    prev: { button: $('#ley-montes-carousel-2 .prev') },
+    auto: { play: false },
+  });
 });

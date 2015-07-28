@@ -2600,3 +2600,130 @@ and (max-width : 660px) {
 	vertical-align: middle;
 	margin-left: 10px;
 }
+
+/* Ley Montes Infographic styles (rauldiazpoblete) */
+
+.ley-montes blockquote {
+	position: relative;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff2eb;
+  border-left: 4px solid #FF873C;
+  margin: 1.5em 10px;
+  padding: 1.25em 1em 1px;
+  quotes: "\201C""\201D""\2018""\2019";
+  text-indent: 2.5em;
+  font-style: normal;
+}
+.ley-montes blockquote:before {
+  color: #FF873C;
+  position: absolute;
+  top: 44px;
+  left: -30px;
+  content: open-quote;
+  font-size: 5em;
+  line-height: 0;
+  margin-right: 0.15em;
+  vertical-align: -0.5em;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.context-data{
+	border-top: 1px solid #ccc;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+.context-data > div{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.context-data .align-right{
+	text-align: right;
+}
+
+.context-data .big-data{
+	font-family: 'Bitter', serif;
+	color: #ff7824;
+	font-size: 1.375em;
+	font-weight: bold;
+}
+
+.article-title{
+	background: #202222;
+	padding: 10px 12px;
+}
+
+.article-title strong{
+	font-family: 'Bitter', serif;
+	color: white;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.article-title .icon-book{
+	display: block;
+	float: left;
+	width: 40px;
+	height: 30px;
+	margin-right: 12px;
+	background: url(images/law.png) no-repeat 0 0 transparent;
+}
+
+.box-recalificacion{
+	background: #ffd6bd;
+	padding: 12px 15px 1px;
+	margin: 10px 0 20px;
+}
+
+.box-recalificacion h5{
+	font-size: 1.125em;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+.box-recalificacion hr{
+	margin-bottom: 18px;
+}
+
+.ley-montes-carousel{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	background-color: #ffe6d6;
+  padding: 12px;
+}
+.ley-montes-carousel ul{
+	margin: 0;
+	padding: 0;
+}
+.ley-montes-carousel h4{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.ley-montes-carousel .info{
+	font-style: italic;
+	margin-bottom: 12px;
+}
+.ley-montes-carousel .blockquote{
+	font-size: 1.125em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ley-montes-carousel .feature-navigation{
+	padding-top: 15px;
+	margin-left: 0;
+}
+
+.ley-montes-carousel .feature-navigation a{
+	border: 1px solid #999;
+}
+.ley-montes-carousel .feature-navigation a:hover{
+	background-color: #FF873C !important;
+	border-color: #FF873C;
+}
+.ley-montes-carousel .feature-navigation .next {
+  background-position: -30px 0;
+}
