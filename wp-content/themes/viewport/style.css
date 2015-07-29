@@ -2603,27 +2603,32 @@ and (max-width : 660px) {
 
 /* Ley Montes Infographic styles (rauldiazpoblete) */
 
+
+.post-espana-sigue-en-llamas .feature-content h1 small{
+	font-size: 24px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
 .ley-montes blockquote {
 	position: relative;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff2eb;
   border-left: 4px solid #FF873C;
-  margin: 1.5em 10px;
-  padding: 1.25em 1em 1px;
-  quotes: "\201C""\201D""\2018""\2019";
-  text-indent: 2.5em;
+  margin: 1.5em 0;
+  padding: 1.25em 1.25em 1px;
+  text-indent: 2em;
   font-style: normal;
 }
 .ley-montes blockquote:before {
   color: #FF873C;
   position: absolute;
-  top: 44px;
-  left: -30px;
-  content: open-quote;
+  top: 46px;
+  left: -20px;
+  content: '\201C';
   font-size: 5em;
   line-height: 0;
   margin-right: 0.15em;
-  vertical-align: -0.5em;
 }
 
 .text-center{
@@ -2674,25 +2679,44 @@ and (max-width : 660px) {
 	background: url(images/law.png) no-repeat 0 0 transparent;
 }
 
+.title-2{
+	font-size: 16px;
+	font-weight: bold;
+	background: #ff914d;
+	padding: 10px 12px;
+}
+
 .box-recalificacion{
 	background: #ffd6bd;
 	padding: 12px 15px 1px;
-	margin: 10px 0 20px;
+	margin: 0 0 20px;
 }
 
 .box-recalificacion h5{
 	font-size: 1.125em;
   margin-bottom: 10px;
   margin-top: 6px;
+  font-weight: bold;
 }
 
 .box-recalificacion hr{
+	border-color: white;
 	margin-bottom: 18px;
 }
 
+.box-recalificacion .wp-caption{
+	margin-top: 6px;
+	margin-right: 15px;
+}
+
+.box-recalificacion .wp-caption .wp-caption-text{
+	text-align: left;
+  line-height: 1.25em;
+  padding-top: 0;
+}
+
 .ley-montes-carousel{
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	background-color: #ffe6d6;
   padding: 12px;
 }
