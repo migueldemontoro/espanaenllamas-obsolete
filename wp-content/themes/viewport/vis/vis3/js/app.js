@@ -99,8 +99,8 @@ function populateResultsTable(data) {
   $.each(data, function(i, mun) {
     fragments.push('<tr>');
     fragments.push('<td>'+mun['municipio']+'</td>');
-    fragments.push('<td>'+mun['num_incendios']+'</td>');
-    fragments.push('<td>'+mun['supquemada']+'</td>');
+    fragments.push('<td data-value="'+mun['num_incendios']+'">'+formatValue(mun['num_incendios'])+'</td>');
+    fragments.push('<td data-value="'+mun['supquemada']+'">'+formatValue(mun['supquemada'], 2)+'</td>');
     fragments.push('<td>'+mun['ranking']+'</td>');
     fragments.push('<td>'+mun['comunidad']+'</td>');
     fragments.push('<td>'+mun['provincia']+'</td>');
