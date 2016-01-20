@@ -41,7 +41,7 @@ Template Name: España en Llamas - Explore
                   </ul>
                   <div id="tit-cifras"></div>
                   <ul id="gcifras-int">
-                    <li>36 <span>muertos</span></li>
+                    <li>41 <span>muertos</span></li>
                     <li>229 <span>heridos</span></li>
                     <li class="ultimo"><span>Costaron más de </span>749M €</li>
                   </ul>
