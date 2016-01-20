@@ -739,10 +739,14 @@ var MOptions = {
   panControl: false,
   zoomControl: true,
   zoomControlOptions: {
-    style: google.maps.ZoomControlStyle.SMALL
+    style: google.maps.ZoomControlStyle.SMALL,
+    position: google.maps.ControlPosition.TOP_RIGHT
   },
   scrollwheel: false,
   mapTypeControl: true,
+  mapTypeControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
   scaleControl: false,
   streetViewControl: false,
   overviewMapControl: false,
